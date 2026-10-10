@@ -234,9 +234,7 @@ python app.py --port 5001
 - CORS properly configured for cross-origin requests
 - SQL injection prevention through ORM usage
 
-## License
 
-This project is part of the Avery Dennison AI initiatives.
 
 ## Support & Contact
 
