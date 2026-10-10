@@ -1,0 +1,878 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+
+
+.fiber-content-inspection {
+  background: #F7F9FA;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 120%;
+  box-sizing: border-box;
+  padding-bottom: 37px;
+}
+
+.fiber-content-inspection .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10 34px 42px 131px;
+  width: 1275px;
+  box-sizing: border-box;
+}
+
+.fiber-content-inspection .dcube,
+.fiber-content-inspection .group,
+.fiber-content-inspection .subtract,
+.fiber-content-inspection .navigation-analytics-2 {
+  width: 24px;
+  height: 24px;
+}
+
+.fiber-content-inspection .navigation-analytics,
+.fiber-content-inspection .navigation-analytics-1 {
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  box-sizing: border-box;
+}
+
+.fiber-content-inspection .navigation-analytics {
+  background:  #8e9194;
+  margin-bottom: 32px;
+  padding: 10px;
+}
+
+.fiber-content-inspection .navigation-analytics-1 {
+  background:  #FE1A3D;
+  margin-bottom: 44px;
+  padding: 12px;
+}
+  .fiber-content-inspection .subtract {
+    width: 20px;
+    height: 20px;
+  }
+  .fiber-content-inspection .navigation-analytics-2 {
+    border-radius: 4px;
+    margin: 0 12px;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    box-sizing: border-box;
+  }
+  .fiber-content-inspection .frame-128 {
+    margin-bottom: 687px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 44px;
+    box-sizing: border-box;
+  }
+  .fiber-content-inspection .group-21 {
+    margin-right: 4px;
+    width: 32px;
+    height: 25px;
+  }
+  .fiber-content-inspection .group-62 {
+    background: #FFFFFF;
+    position: fixed;
+    left: 0px;
+    bottom: -95px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32.2px 0 32px 0;
+    width: 96px;
+    box-sizing: border-box;
+  }
+  .fiber-content-inspection .group-211 {
+    width: 43.8px;
+    height: 36px;
+  }
+  .fiber-content-inspection .notifiction-icon {
+    margin: 8.2px 10px 8.2px 0;
+    width: 14px;
+    height: 16.6px;
+  }
+  .fiber-content-inspection .hello-jean-de-ffloret {
+    margin: 8px 32.5px 8px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.417;
+    color: #334681;
+  }
+  .fiber-content-inspection .pic-1 {
+    border-radius: 10px;
+    background: #E8ECEF;
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    translate: -50% 0;
+    width: 30.7px;
+    height: 30.7px;
+  }
+  .fiber-content-inspection .unsplash-ilip-77-sbm-oe {
+    border-radius: 10px;
+    background: url('/static/assets/images/unsplash_ilip_77_sbm_oe.jpeg') 50% / cover no-repeat, linear-gradient(#E8ECEF, #E8ECEF);
+    position: relative;
+    width: 30.7px;
+    height: 30.7px;
+  }
+  .fiber-content-inspection .container-8 {
+    border-radius: 10px;
+    background: #E8ECEF;
+    position: relative;
+    display: flex;
+    width: 50.7px;
+    height: 50.7px;
+    box-sizing: border-box;
+  }
+  .fiber-content-inspection .container-5 {
+    width: 6.1px;
+    height: 3.8px;
+  }
+  .fiber-content-inspection .online {
+    border-radius: 6.1px;
+    background: #FE1A3D;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    padding: 4.6px 3.1px 3.8px 3.1px;
+    width: 12.3px;
+    height: 12.3px;
+    box-sizing: border-box;
+  }
+  .fiber-content-inspection .user-avatar {
+    position: relative;
+    display: flex;
+    padding: 0 2.3px 2.3px 0;
+    width: 33px;
+    height: 33px;
+    box-sizing: border-box;
+  }
+  .fiber-content-inspection .frame-35 {
+    margin: 1px 0 2px 0;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .fiber-content-inspection .nav {
+    box-shadow: 0px 3px 4px 0px rgba(51, 70, 129, 0.13);
+    background: #FFFFFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 32px 12px 24px; /* Adjusted padding to match your design */
+    width: 100%; /* Full width of the viewport */
+    box-sizing: border-box;
+    z-index: 1000; /* Ensure it stays on top of other elements */
+}
+  
+  .fiber-content-inspection .nav .icon {
+    background-image: url('/path/to/your/icon.png'); /* Replace with your icon path */
+    width: 24px; /* Adjust icon size */
+    height: 24px; /* Adjust icon size */
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 16px; /* Adjust margin as needed */
+  }
+  .fiber-content-inspection .refresh {
+    margin: 5px 8.3px 6px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #4B5D90;
+  }
+  .fiber-content-inspection .refresh-1 {
+    width: 16px;
+    height: 16px;
+  }
+  .fiber-content-inspection .frame-36 {
+    border-radius: 8px;
+    background: #f50b0b;
+    display: flex;
+    padding: 8px;
+    width: 32px;
+    height: 32px;
+    box-sizing: border-box;
+}
+  .fiber-content-inspection .group-36 {
+    border-radius: 8px;
+    display: flex;
+    width: 32px;
+    height: 32px;
+    box-sizing: border-box;
+  }
+  .fiber-content-inspection .container-10 {
+    margin-top: 2px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .fiber-content-inspection .start-searching-2 {
+    overflow-wrap: break-word;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.214;
+    color: #FFFEFE;
+  }
+  .fiber-content-inspection .frame-88 {
+    border-radius: 46px;
+    background: #FE1A3D;
+    margin-bottom: 1px;
+    display: flex;
+    padding: 8px 16.3px 8px 16px;
+    box-sizing: border-box;
+  }
+  .fiber-content-inspection .container {
+    margin: auto 20px 42px 131px;
+    margin-top: 42px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1663px;
+    box-sizing: border-box;
+    margin-top: 40px;
+
+}
+
+  .fiber-content-inspection .the-proportion-of-ne-2 {
+    position: absolute;
+    left: 16px;
+    top: -225px;
+    overflow-wrap: break-word;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 16px;
+    color: #514C54;
+  }
+  .fiber-content-inspection .the-proportion-of-ne-3 {
+    margin: 5px 11px 6px 0;
+    display: inline-block;
+    width: 213px;
+    overflow-wrap: break-word;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 16px;
+    margin-right: 10px;
+    color: #FFFFFF;
+  }
+  .fiber-content-inspection .start-searching {
+    overflow-wrap: break-word;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.214;
+    color: #F7F9FA;
+  }
+  .start-searching-sub1 {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.333;
+  }
+  .fiber-content-inspection .frame-92 {
+    border-radius: 8px;
+    border: 1px solid #F7F9FA;
+    display: flex;
+    padding: 1px 150px 1px 10px;
+    box-sizing: border-box;
+  }
+  
+  .fiber-content-inspection .the-proportion-of-ne-4 {
+    position: absolute;
+    left: 16px;
+    top: -225px;
+    overflow-wrap: break-word;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 16px;
+    color: #514C54;
+  }
+  .fiber-content-inspection .the-proportion-of-ne-5 {
+    margin: 5px 11px 6px 0;
+    display: inline-block;
+    width: 234px;
+    overflow-wrap: break-word;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+  }
+
+
+  
+ 
+  .fiber-content-inspection .the-proportion-of-ne-6 {
+    position: absolute;
+    left: 13.7px;
+    top: -225px;
+    overflow-wrap: break-word;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 16px;
+    color: #514C54;
+  }
+  .fiber-content-inspection .the-proportion-of-ne-7 {
+    margin: 5px 11px 5px 0;
+    display: inline-block;
+    width: 286.3px;
+    overflow-wrap: break-word;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+  }
+  .fiber-content-inspection .refresh-2 {
+    margin: 5px 8.9px 6px 85px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #FFFFFF;
+  }
+  
+  .fiber-content-inspection .group-361 {
+    border-radius: 8px;
+    display: flex;
+    width: 32px;
+    height: 32px;
+    box-sizing: border-box;
+  }
+  .fiber-content-inspection .container-5 {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+ .fiber-content-inspection .container-7 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 295.3px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+  
+  .fiber-content-inspection .container-2 {
+    margin: 11px 32px 17px 127px;
+    display: flex;
+    flex-direction: row;
+    width: 1293px;
+    box-sizing: border-box;
+  }
+  .fiber-content-inspection .the-proportion-of-ne {
+    position: absolute;
+    left: 42.5px;
+    top: -225px;
+    overflow-wrap: break-word;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 16px;
+    color: #514C54;
+  }
+  .fiber-content-inspection .the-proportion-of-ne-1 {
+    overflow-wrap: break-word;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+  }
+  .fiber-content-inspection .card-5 {
+    border-radius: 16px 16px 0 0;
+    border: 1px solid #E8ECEF;
+    background: linear-gradient(#17111B, #17111B), linear-gradient(#FFFFFF, #FFFFFF);
+    position: relative;
+    margin-bottom: 11.5px;
+    padding: 10.4px 22.5px 10.1px 22.5px;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .fiber-content-inspection .document-is {
+    position: center;
+    overflow-wrap: break-word;
+    font-family: 'Open Sans';
+    font-weight: 500;
+    font-size: 28px;
+    color: #FFFFFF;
+  }
+  .fiber-content-inspection .genuine {
+    position: absolute;
+    right: 97.7px;
+    bottom: 13px;
+    overflow-wrap: break-word;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 42px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  .fiber-content-inspection .container-3 {
+    border-radius: 8px;
+    background: #23B899;
+    position: relative;
+    margin-right: 24px;
+    display: flex;
+    padding: 13px 0 65px 0.8px;
+    width: 409px;
+    box-sizing: border-box;
+  }
+  .fiber-content-inspection .no-forgery-was-detected {
+    margin: 8px 0 70px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: #17111B;
+  }
+  .fiber-content-inspection .container-4 {
+    margin: 0 23px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .fiber-content-inspection .left {
+    border-radius: 16px;
+    border: 1px solid #E8ECEF;
+    background: #FFFFFF;
+    position: relative;
+    margin: 0 35px 0 131px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 16px;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+ 
+  .fiber-content-inspection {
+    background: #F7F9FA;
+    width: 98vw;
+    margin-top: 68px; /* This ensures the content starts below the fixed navbar */
+    box-sizing: border-box;
+    padding-top: 0px; 
+    /* This prevents content from hiding behind the navbar */
+    overflow-x: hidden; /* Disable horizontal scrolling */
+    overflow-y: auto;   /* Enable vertical scrolling */
+  }
+  
+  /* Ensure the user-avatar container styles */
+.user-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+/* Style for the profile picture */
+.profile-pic {
+  width: 50px; /* Adjust the size as needed */
+  height: 50px; /* Adjust the size as needed */
+  border-radius: 50%; /* Makes the picture round */
+  object-fit: cover; /* Ensures the image covers the area */
+  border: 2px solid #ddd; /* Optional: adds a border around the profile picture */
+}
+
+/* Additional styling for container-8 and online if needed */
+.container-8 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.online {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 15px;
+  height: 15px;
+  background-color: green; /* Color to indicate online status */
+  border-radius: 50%;
+  border: 2px solid white; /* Border around the status indicator */
+}
+
+
+
+/* CSS  for OCR result*/
+:root {
+  ---border-radius: 16px;
+  --border-color: #E8ECEF;
+  --background-color-card-82: linear-gradient(#FFFFFF, #FFFFFF), linear-gradient(#FFFFFF, #FFFFFF);
+  --background-color-card-92: linear-gradient(#17111B, #17111B), linear-gradient(#FFFFFF, #FFFFFF);
+  --margin-right-left-4: 5%;
+  --width-card-82: 1281px;
+  --height-card-82: 212px;
+  --width-card-92: 1218px;
+  --height-card-92: 10px;
+  --padding-card-92: 1rem 2rem;
+  --width-container: 212%;
+}
+
+/* Adjusted CSS with relative units and variables */
+.fiber-content-inspection .left-4 {
+  border-radius: var(--border-radius);
+  margin-right: var(--margin-right-left-4);
+  margin-top: var(--margin-top-left-4);
+  display: flex;
+  width: var(--width-card-82);
+  height: var(--height-card-82);
+  box-sizing: border-box;
+}
+
+.fiber-content-inspection .card-82 {
+  border-radius: var(--border-radius);
+  border: 1px solid var(--border-color);
+  background: var(--background-color-card-82);
+  position: relative;
+  margin-left: -2%;
+  right: -119px;
+  width: var(--width-card-82);
+  height: var(--height-card-82);
+}
+
+.fiber-content-inspection .card-92 {
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
+  border: 1px solid var(--border-color);
+  background: var(--background-color-card-92);
+  position: absolute;
+  top: 0;
+  border-radius:16px 16px 0 0;
+  right: 0px;
+  padding: var(--padding-card-92);
+  width: var(--width-card-92);
+  height: var(--height-card-92);
+}
+
+.fiber-content-inspection .container-100 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: var(--width-container);
+  height: fit-content;
+  box-sizing: border-box;
+}
+
+.fiber-content-inspection .text {
+  overflow-wrap: break-word;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF; 
+  margin-left: -20px;
+  margin-top: -5px;
+
+}
+
+/* .imagleft-1e-container img {
+  max-width: 522px;
+  height: auto;
+  margin-bottom: auto;
+} */
+
+
+/* Define CSS for 3 contaner  */
+/* Container 1 Variables */
+:root {
+  --container-1-width: 389px;
+  --container-1-height: fit-content;
+  --card-51-width: 502px;
+  --card-51-height: 44px;
+  --image-6-width: 502px;
+  --image-6-height: 627px;
+  --left-1-margin-right: 16.4px;
+  --left-1-width: 408.6px;
+  --left-1-height: 627px;
+}
+
+/* Container 2 Variables */
+:root {
+  --container-2-width: 504px;
+  --container-2-height: fit-content;
+  --card-52-width: 501px;
+  --card-52-height: 44px;
+  --image-61-width: 447px;
+  --image-61-height: 627px;
+  --left-2-margin-right: 37.4px;
+  --left-2-width: 575.6px;
+  --left-2-height: 627px;
+}
+
+/* Container 3 Variables */
+:root {
+  --card-53-width: 496px;
+  --image-62-width: 374px;
+  --image-62-height: auto;
+  --left-3-width: 506px;
+}
+
+/* Common Variables */
+:root {
+  --common-height: fit-content;
+  --border-color: #E8ECEF;
+  --main-bg-gradient: linear-gradient(#17111B, #17111B);
+  --secondary-bg-gradient: linear-gradient(#FFFFFF, #FFFFFF);
+  --background-color: #FFFFFF;
+  --frame-border-radius: 8px;
+  --frame-padding: 7px 6.7px 6px 15px;
+  --font-family: 'Open Sans';
+  --font-weight: 600;
+  --font-size: 14px;
+  --line-height: 1.214;
+  --font-color: #000000;
+}
+
+/* Container 1 */
+.fiber-content-inspection .container-1 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: var(--container-1-width);
+  height: var(--container-1-height);
+  box-sizing: border-box;
+}
+.fiber-content-inspection .card-51 {
+  border-radius: 16px 16px 0 0;
+  border: 1px solid var(--border-color);
+  background: var(--main-bg-gradient), var(--secondary-bg-gradient);
+  position: absolute;
+  top: 0px;
+  right: -1.4px;
+  padding: 5.5px 15.5px 4.5px 15.5px;
+  width: var(--card-51-width);
+  height: var(--card-51-height);
+  box-sizing: border-box;
+}
+.fiber-content-inspection .image-6 {
+  background: url('') 50% / contain no-repeat;
+  width: var(--image-6-width);
+  height: var(--image-6-height);
+  position: absolute;
+  border-radius: 0 0 16px 16px;
+  left: 0;
+  right: -10px;
+  top: 41px;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.fiber-content-inspection .card-41 {
+  border-radius: 16px;
+  border: 1px solid var(--border-color);
+  background: var(--secondary-bg-gradient), var(--secondary-bg-gradient);
+  position: relative;
+  display: flex;
+  padding-top: 31.5px;
+  width: 500.6px;
+  height: 673px;
+  box-sizing: border-box;
+  margin-left: -167px;
+}
+.fiber-content-inspection .left-1 {
+  border-radius: 16px;
+  margin-right: var(--left-1-margin-right);
+  margin-top: 40px;
+  display: flex;
+  width: var(--left-1-width);
+  height: var(--left-1-height);
+  box-sizing: border-box;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+}
+.fiber-content-inspection .frame-921 {
+  border-radius: var(--frame-border-radius);
+  border: 2px solid #000;
+  display: flex;
+  padding: var(--frame-padding);
+  box-sizing: border-box;
+  margin-right: -81px;
+  background-color: var(--background-color);
+  color: var(--font-color);
+}
+.fiber-content-inspection .frame-922 {
+  border-radius: var(--frame-border-radius);
+  border: 2px solid #000;
+  display: flex;
+  padding: var(--frame-padding);
+  box-sizing: border-box;
+  margin-right: 35px;
+  background-color: var(--background-color);
+  color: var(--font-color);
+}
+.fiber-content-inspection .start-searching-1 {
+  overflow-wrap: break-word;
+  font-family: var(--font-family);
+  font-weight: var(--font-weight);
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+  color: var(--font-color);
+}
+
+/* Container 2 */
+.fiber-content-inspection .container-9 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: var(--container-2-width);
+  height: var(--container-2-height);
+  box-sizing: border-box;
+}
+.fiber-content-inspection .card-52 {
+  border-radius: 16px 16px 0 0;
+  border: 1px solid var(--border-color);
+  background: var(--main-bg-gradient), var(--secondary-bg-gradient);
+  position: absolute;
+  top: 0px;
+  right: -1.4px;
+  padding: 5.5px 15.5px 4.5px 15.5px;
+  width: var(--card-52-width);
+  height: var(--card-52-height);
+  box-sizing: border-box;
+}
+.fiber-content-inspection .image-61 {
+  background: url('') 50% / cover no-repeat;
+  width: var(--image-61-width);
+  height: var(--image-61-height);
+  position: absolute;
+  border-radius: 0 0 16px 16px;
+  left: 0;
+  top: 44px;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.fiber-content-inspection .card-42 {
+  border-radius: 16px;
+  border: 1px solid var(--border-color);
+  background: var(--secondary-bg-gradient), var(--secondary-bg-gradient);
+  position: relative;
+  display: flex;
+  padding-top: 31.5px;
+  width: 500.6px;
+  height: 673px;
+  box-sizing: border-box;
+}
+.fiber-content-inspection .left-2 {
+  border-radius: 16px;
+  margin-right: var(--left-2-margin-right);
+  margin-top: 40px;
+  display: flex;
+  width: var(--left-2-width);
+  height: var(--left-2-height);
+  box-sizing: border-box;
+  margin-left: 0px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+}
+
+/* Container 3 */
+.fiber-content-inspection .card-53 {
+  border-radius: 16px 16px 0 0;
+  border: 1px solid var(--border-color);
+  background: var(--main-bg-gradient), var(--secondary-bg-gradient);
+  position: relative;
+  display: flex;
+  padding: 5.5px 7.5px 5.5px 13.2px;
+  width: var(--card-53-width);
+  box-sizing: border-box;
+  margin-top: -32px;
+}
+.fiber-content-inspection .image-62 {
+  background: url('') 50% / contain no-repeat;
+  width: var(--image-62-width);
+  height: var(--image-62-height);
+  position: absolute;
+  border-radius: 0 0 16px 16px;
+  left: 0;
+  top: 333px;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.fiber-content-inspection .left-3 {
+  border-radius: 16px;
+  border: 1px solid var(--border-color);
+  background: var(--background-color);
+  position: relative;
+  display: flex;
+  margin-top: 40px;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 3px;
+  padding-top: 31.5px;
+  width: 500.6px;
+  height: 673px;
+  box-sizing: border-box;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.fiber-content-inspection .frame-361 {
+  border-radius: var(--frame-border-radius);
+  background: var(--background-color);
+  display: flex;
+  padding: 8px;
+  width: 32px;
+  height: 32px;
+  box-sizing: border-box;
+}
+.fiber-content-inspection .refresh-3 {
+  width: 16px;
+  height: 16px;
+}
+
+.image-container {
+  width: 500.6px; /* Matches the width of the cards */
+  height: 627px;
+  margin-top: 10.5px; /* Matches the height of the cards */
+  overflow: hidden; /* Hides any part of the image that overflows the container */
+  border-radius: 0 0 16px 16px; /* Matches the border radius of the cards */
+  border: 1px solid var(--border-color); /* Matches the border style of the cards */
+  background: var(--secondary-bg-gradient), var(--secondary-bg-gradient); /* Matches the background of the cards */
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the container, cropping as necessary */
+ /* Adds margin below the image */
+}
+
+
+.image-inspection {
+  width: 493.6px;
+  height: 671px;
+  margin-top: 0px;/* Matches the height of the cards */
+  overflow: hidden; /* Hides any part of the image that overflows the container */
+  border-radius: 0 0 16px 16px; /* Matches the border radius of the cards */
+
+}
+
+.image-inspection img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the container, cropping as necessary */
+  /* Adds margin below the image */
+}

@@ -1,0 +1,77 @@
+Run started:2024-12-13 13:16:48.581377
+
+Test results:
+>> Issue: [B112:try_except_continue] Try, Except, Continue detected.
+   Severity: Low   Confidence: High
+   CWE: CWE-703 (https://cwe.mitre.org/data/definitions/703.html)
+   More Info: https://bandit.readthedocs.io/en/1.7.10/plugins/b112_try_except_continue.html
+   Location: /home/amur/Amur/AveryDennison/source/v1.3/inspection.py:630:24
+629	                                care_symbols_gt[possible_care_symbol] = {'symbol_id':hold, 'symbol_instr': care_instruction}
+630	                        except:
+631	                            continue
+632	                gt = {
+
+--------------------------------------------------
+>> Issue: [B112:try_except_continue] Try, Except, Continue detected.
+   Severity: Low   Confidence: High
+   CWE: CWE-703 (https://cwe.mitre.org/data/definitions/703.html)
+   More Info: https://bandit.readthedocs.io/en/1.7.10/plugins/b112_try_except_continue.html
+   Location: /home/amur/Amur/AveryDennison/source/v1.3/utils/pipeline_utils.py:598:20
+597	                        page_bbox = [element for sublist in bottom_quarter_text for element in sublist if 'Page' in element[1][0]]
+598	                    except:
+599	                        continue 
+600	                    xmin, ymin = None, None 
+
+--------------------------------------------------
+>> Issue: [B112:try_except_continue] Try, Except, Continue detected.
+   Severity: Low   Confidence: High
+   CWE: CWE-703 (https://cwe.mitre.org/data/definitions/703.html)
+   More Info: https://bandit.readthedocs.io/en/1.7.10/plugins/b112_try_except_continue.html
+   Location: /home/amur/Amur/AveryDennison/source/v1.3/utils/pipeline_utils.py:1098:8
+1097	                del extra_care_gt[lang]
+1098	        except:
+1099	            continue 
+1100	
+
+--------------------------------------------------
+>> Issue: [B110:try_except_pass] Try, Except, Pass detected.
+   Severity: Low   Confidence: High
+   CWE: CWE-703 (https://cwe.mitre.org/data/definitions/703.html)
+   More Info: https://bandit.readthedocs.io/en/1.7.10/plugins/b110_try_except_pass.html
+   Location: /home/amur/Amur/AveryDennison/source/v1.3/utils/sheet.py:136:4
+135	        size_df = size_df.where(pd.notnull(size_df), None)
+136	    except:
+137	        pass
+138	
+
+--------------------------------------------------
+>> Issue: [B112:try_except_continue] Try, Except, Continue detected.
+   Severity: Low   Confidence: High
+   CWE: CWE-703 (https://cwe.mitre.org/data/definitions/703.html)
+   More Info: https://bandit.readthedocs.io/en/1.7.10/plugins/b112_try_except_continue.html
+   Location: /home/amur/Amur/AveryDennison/source/v1.3/utils/sheet.py:471:12
+470	                    fc_gt[content_type][material] = material_val
+471	            except:
+472	                continue
+473	        else:
+
+--------------------------------------------------
+
+Code scanned:
+	Total lines of code: 3817
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 5
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 5
+Files skipped (1):
+	/home/amur/Amur/AveryDennison/source/v1.3/run.py (syntax error while parsing AST from file)

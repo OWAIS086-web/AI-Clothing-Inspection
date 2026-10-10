@@ -1,0 +1,108 @@
+body {
+    cursor: auto;
+    background-image: url('/static/img/Vector.jpg');
+    background-repeat: repeat-y;
+    width: 100%;
+    margin-left: 10px;
+    overflow-x: hidden;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-position: 100% 50%;
+    margin: 0px 0px 0px 10px;
+    padding: 0px;
+    box-sizing: border-box;
+    height: 927px;
+    background: rgb(247, 249, 250) url('/static/img/Vector.jpg') repeat-y scroll 100% 50% / cover padding-box border-box;
+}
+
+.style-1 {
+    margin-left: 0px;
+}
+
+.style-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 379.938px;
+}
+
+.style-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 100px;
+}
+
+.style-4 {
+    margin: auto;
+    width: 100px;
+}
+
+.style-5 {
+    width: 200px;
+    background-color: rgb(211, 211, 211);
+    padding: 10px;
+    height: 30px;
+    border: 0px none rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.style-6 {
+    width: 200px;
+    background-color: rgb(211, 211, 211);
+    padding: 10px;
+    height: 30px;
+    border: 0px none rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.style-7 {
+    background-color: rgb(254, 26, 61);
+    border: 0px none rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    width: 100px;
+    font-size: 16px;
+    margin: auto;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.style-8 {
+    width: 200px;
+    background-color: rgb(211, 211, 211);
+    padding: 10px;
+    height: 30px;
+    border: 0px none rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.style-9 {
+    font-family: 'Open Sans';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.68px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    margin-left: 500px;
+}
+
+
+.alert-popup {
+    display: none;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffdddd;
+    color: #d8000c;
+    padding: 20px;
+    border: 1px solid #d8000c;
+    border-radius: 5px;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    text-align: center;
+}

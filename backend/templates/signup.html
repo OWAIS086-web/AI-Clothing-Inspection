@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/login.css') }}">
+    <script>
+        function showAlert(message) {
+            alert(message);
+        }
+    </script>
+</head>
+<body class="style-0">
+    <div class="style-1">
+        <div class="style-2">
+            <form method="post" action="/register">
+                <div class="style-3">
+                    <img src="/static/img/Vector.svg" alt="" class="style-4" />
+                    <input type="text" required placeholder="User Name" name="username" class="style-5" />
+                    <input type="password" required placeholder="Password" name="password" class="style-6" />
+                    <input type="password" required placeholder="Confirm Password" name="confirm_password" class="style-6" />
+                    <button type="submit" class="style-7">Sign Up</button>
+                </div>
+                {% with messages = get_flashed_messages() %}
+                  {% if messages %}
+                    <script>
+                        showAlert("{{ messages[0] }}");
+                    </script>
+                  {% endif %}
+                {% endwith %}
+            </form>
+        </div>
+        <h4 class="style-9">Made In Pakistan</h4>
+    </div>
+</body>
+</html>

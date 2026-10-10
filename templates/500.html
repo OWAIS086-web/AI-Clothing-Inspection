@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Clothing Inspection 500 Bad Request</title>
+     <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  
+    <style>
+     
+        .container {
+            text-align: center;
+           
+            padding: 495px;
+            background-color: white;
+            border: 1px solid #f4f4f4;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 3em;
+            margin-top: -186px;
+        }
+        p {
+            margin: 20px 0;
+            font-size: 1.2em;
+            margin-top: 0px;
+        }
+        
+       
+        .subtract {
+            width: 30px;
+            height: 30px;
+            margin-left: 28px;
+            margin-top: 10px;
+          }
+
+
+        .button {
+            background-color: #ff4d4d;
+            border: none;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #e60000;
+        }
+
+        </style>
+</head>
+<body class="style-0">
+
+    <nav b-417jhgki91="" class="style-1">
+        <div b-417jhgki91="" class="style-2">
+            <button b-417jhgki91="" class="style-3"><i b-417jhgki91="" class="style-4"></i></button>
+        </div> 
+        <a b-417jhgki91="" href="/home/haval" class="style-5">
+            <div b-417jhgki91="" class="style-6">
+                <img src="{{ url_for('static', filename='images/technology.png') }}" alt="AI Clothing Technology" class="style-7" />
+            </div>
+        </a>
+        <div b-417jhgki91="" class="style-8">
+            <a b-417jhgki91="" class="style-9" role="button" href="#">
+                <img src="{{ url_for('static', filename='images/NotifictionIcon.png') }}" class="style-10" /> 
+                <span b-417jhgki91="" class="style-11">0</span>
+            </a>
+            <div b-417jhgki91="" class="style-12">
+                <div b-417jhgki91="" class="style-13"></div>
+            </div>
+        </div>
+        <button b-417jhgki91="" class="style-14" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span b-417jhgki91="" class="style-15">U</span>
+        </button>
+        <div b-417jhgki91="" class="style-16">
+            <ul b-417jhgki91="" class="style-17">
+                <li b-417jhgki91="" class="style-18">
+                    <a b-417jhgki91="" class="style-19" onclick="ReadAlert()" role="button" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
+                        <img src="{{ url_for('static', filename='images/NotifictionIcon.png') }}" class="style-20" />
+                        <span b-417jhgki91="" class="style-21">0</span>
+                    </a>
+                    <div b-417jhgki91="" class="style-22" aria-labelledby="notifyDropdownBtn"></div>
+                </li>
+            </ul>
+            <ul b-417jhgki91="" class="style-23">
+                <li b-417jhgki91="" class="style-24">
+                    <a b-417jhgki91="" class="style-25" href="#">Hello,{{username}} </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div b-417jhgki91="" class="style-26">
+        <aside b-417jhgki91="" class="style-27">
+            <div b-417jhgki91="" class="style-28">
+                <div b-417jhgki91="" class="style-29">
+                    <img src="{{ url_for('static', filename='images/technology.png') }}" alt="AI Clothing Technology" class="style-30" />
+                </div>
+                <div b-417jhgki91="" class="style-31">
+                    <button b-417jhgki91="" class="style-32"><i b-417jhgki91="" class="style-33"></i></button>
+                </div>
+                <div b-417jhgki91="" class="style-34">
+                    <ul b-417jhgki91="" class="style-35">
+                        <li b-417jhgki91="" class="style-36">
+                            <a b-417jhgki91="" href="/history" class="style-37">
+                                <span b-417jhgki91="" class="style-38">
+                                    <svg b-417jhgki91="" width="20" height="20" class="style-39" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path b-417jhgki91="" d="M3.5 8.60486L11.25 11.7729V21.1764L3.5 18.0084V8.60486Z" fill="black" class="style-40"></path>
+                                        <path b-417jhgki91="" d="M19.26 7.47813L12 10.4551L4.73999 7.47813L12 4.51123L19.26 7.47813Z" fill="black" class="style-41"></path>
+                                        <path b-417jhgki91="" d="M20.5 8.60486V18.0084L12.75 21.1764V11.7729L20.5 8.60486Z" fill="black" class="style-42"></path>
+                                    </svg>
+                                </span>
+                                <span b-417jhgki91="" class="style-43">Gallery</span>
+                            </a>
+                        </li>
+                        <li b-417jhgki91="" class="style-44">
+                            <a b-417jhgki91="" href="/" class="style-45">
+                                <span b-417jhgki91="" class="style-46">
+                                    <svg b-417jhgki91="" width="20" height="20" class="style-47" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path b-417jhgki91="" d="M8.68062 3.83716H5.32063C3.98063 3.83716 2.89062 4.93339 2.89062 6.28106V9.66028C2.89062 11.008 3.98063 12.1042 5.32063 12.1042H8.68062C10.0206 12.1042 11.1106 11.008 11.1106 9.66028V6.28106C11.1106 4.93339 10.0206 3.83716 8.68062 3.83716Z" fill="black" class="style-48"></path>
+                                        <path b-417jhgki91="" d="M18.6806 3.83716H15.3206C13.9806 3.83716 12.8906 4.93339 12.8906 6.28106V9.66028C12.8906 11.008 13.9806 12.1042 15.3206 12.1042H18.6806C20.0206 12.1042 21.1106 11.008 21.1106 9.66028V6.28106C21.1106 4.93339 20.0206 3.83716 18.6806 3.83716Z" fill="black" class="style-49"></path>
+                                        <path b-417jhgki91="" d="M8.68062 13.8945H5.32063C3.98063 13.8945 2.89062 14.9908 2.89062 16.3384V19.7177C2.89062 21.0653 3.98063 22.1616 5.32063 22.1616H8.68062C10.0206 22.1616 11.1106 21.0653 11.1106 19.7177V16.3384C11.1106 14.9908 10.0206 13.8945 8.68062 13.8945Z" fill="black" class="style-50"></path>
+                                        <path b-417jhgki91="" d="M18.6806 13.8945H15.3206C13.9806 13.8945 12.8906 14.9908 12.8906 16.3384V19.7177C12.8906 21.0653 13.9806 22.1616 15.3206 22.1616H18.6806C20.0206 22.1616 21.1106 21.0653 21.1106 19.7177V16.3384C21.1106 14.9908 20.0206 13.8945 18.6806 13.8945Z" fill="black" class="style-51"></path>
+                                    </svg>
+                                </span>
+                                <span b-417jhgki91="" class="style-52">Inspection</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="navigation-analytics-2">
+                        <a href="/logout">
+                            <img class="subtract" src="{{ url_for('static', filename='img/vectors/subtract_5_x2.svg') }}" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </aside> 
+    <div class="container">
+        <h1>500 Internal Server Error</h1>
+        <p>Oops! Something went wrong on our end.</p>
+        <p>We apologize for the inconvenience. Our team has been notified and we're working to fix the problem.</p>
+     
+        <a class="button" href="{{ url_for('index') }}">Go to Homepage</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,252 @@
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inspection History</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/history.css') }}">
+
+    <style>
+        .subtract {
+            width: 30px;
+            height: 30px;
+            margin-left: 28px;
+            margin-top: 10px;
+          }
+    </style>
+</head>
+
+<body cz-shortcut-listen="true" class="style-0">
+
+    <nav b-417jhgki91="" class="style-1">
+        <div b-417jhgki91="" class="style-2">
+            <button b-417jhgki91="" class="style-3"><i b-417jhgki91="" class="style-4"></i></button>
+        </div> <a b-417jhgki91="" href="/" class="style-5">
+            <div b-417jhgki91="" class="style-6">
+                
+                <img src="{{ url_for('static', filename='img/assets/images/Vector.png') }}" />
+            </div>
+        </a>
+        <div b-417jhgki91="" class="style-8">
+            <a b-417jhgki91="" class="style-9" role="button" c="" href="#">
+                <img src="/assets/images/NotifictionIcon.png" class="style-10" /> <span b-417jhgki91="" class="style-11">0</span> </a>
+            <div b-417jhgki91="" class="style-12">
+                <div b-417jhgki91="" class="style-13">
+                </div>
+            </div>
+        
+    </nav>
+    <div b-417jhgki91="" class="style-26">
+        <aside b-417jhgki91="" class="style-27">
+            <div b-417jhgki91="" class="style-28">
+                <div b-417jhgki91="" class="style-29">
+                    <img src="/assets/images/Vector.png" class="style-30" />
+                </div>
+                <div b-417jhgki91="" class="style-31">
+                    <button b-417jhgki91="" class="style-32"><i b-417jhgki91="" class="style-33"></i></button>
+                </div>
+                <div b-417jhgki91="" class="style-34">
+                    <ul b-417jhgki91="" class="style-35">
+                        <li b-417jhgki91="" class="style-36">
+                            <a b-417jhgki91="" href="/dashboard" class="style-37">
+
+                                <span b-417jhgki91="" class="style-38">
+                                    <svg b-417jhgki91="" width="20" height="20" class="style-39" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path b-417jhgki91="" d="M3.5 8.60486L11.25 11.7729V21.1764L3.5 18.0084V8.60486Z" fill="black" class="style-40"></path>
+                                        <path b-417jhgki91="" d="M19.26 7.47813L12 10.4551L4.73999 7.47813L12 4.51123L19.26 7.47813Z" fill="black" class="style-41"></path>
+                                        <path b-417jhgki91="" d="M20.5 8.60486V18.0084L12.75 21.1764V11.7729L20.5 8.60486Z" fill="black" class="style-42"></path>
+                                    </svg> </span> <span b-417jhgki91="" class="style-43">Home</span> </a>
+                        </li>
+                        <li b-417jhgki91="" class="style-44">
+                            <a b-417jhgki91="" href="/" class="style-45">
+                                <span b-417jhgki91="" class="style-46">
+                                    <svg b-417jhgki91="" width="20" height="20" class="style-47" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path b-417jhgki91="" d="M8.68062 3.83716H5.32063C3.98063 3.83716 2.89062 4.93339 2.89062 6.28106V9.66028C2.89062 11.008 3.98063 12.1042 5.32063 12.1042H8.68062C10.0206 12.1042 11.1106 11.008 11.1106 9.66028V6.28106C11.1106 4.93339 10.0206 3.83716 8.68062 3.83716Z" fill="black" class="style-48"></path>
+                                        <path b-417jhgki91="" d="M18.6806 3.83716H15.3206C13.9806 3.83716 12.8906 4.93339 12.8906 6.28106V9.66028C12.8906 11.008 13.9806 12.1042 15.3206 12.1042H18.6806C20.0206 12.1042 21.1106 11.008 21.1106 9.66028V6.28106C21.1106 4.93339 20.0206 3.83716 18.6806 3.83716Z" fill="black" class="style-49"></path>
+                                        <path b-417jhgki91="" d="M8.68062 13.8945H5.32063C3.98063 13.8945 2.89062 14.9908 2.89062 16.3384V19.7177C2.89062 21.0653 3.98063 22.1616 5.32063 22.1616H8.68062C10.0206 22.1616 11.1106 21.0653 11.1106 19.7177V16.3384C11.1106 14.9908 10.0206 13.8945 8.68062 13.8945Z" fill="black" class="style-50"></path>
+                                        <path b-417jhgki91="" d="M18.6806 13.8945H15.3206C13.9806 13.8945 12.8906 14.9908 12.8906 16.3384V19.7177C12.8906 21.0653 13.9806 22.1616 15.3206 22.1616H18.6806C20.0206 22.1616 21.1106 21.0653 21.1106 19.7177V16.3384C21.1106 14.9908 20.0206 13.8945 18.6806 13.8945Z" fill="black" class="style-51"></path>
+                                    </svg> </span> <span b-417jhgki91="" class="style-52">Inspection</span> </a>
+                        </li>                        
+
+                        
+                    </ul>
+                    <div class="navigation-analytics-2">
+                        <a href="/logout">
+                            <img class="subtract" src="{{ url_for('static', filename='img/vectors/subtract_5_x2.svg') }}" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <div class="style-53">
+            <div class="style-54">
+                <h1 class="style-55">History Gallery</h1>
+                <div class="style-56">
+                    <div class="style-57">
+                        <label class="style-58">Inspection View</label> <select class="style-59">
+                            <option class="style-60">Fiber Content</option>
+                            <option class="style-61">Care Instructions</option>
+                            <option class="style-62">Care Symbols</option>
+                            <option class="style-63">Extra Care&nbsp;Instructions</option>
+                        </select>
+                    </div>
+                    <div class="style-64">
+                        <label class="style-65">Article Number</label> <input type="text" class="style-66" placeholder="Enter Article No/Part ID" />
+                    </div>
+                    <div class="style-67">
+                        <label class="style-68">Defect Status</label> <select class="style-69">
+                            <option class="style-70">Defect</option>
+                        </select>
+                    </div>
+                    <div class="style-71">
+                        <label class="style-72">Article Category</label> <select class="style-73">
+                            <option class="style-74">All Articles</option>
+                        </select>
+                    </div>
+                    <div class="style-75">
+                        <label class="style-76">From</label> <input type="date" class="style-77" placeholder="" />
+                    </div>
+                    <div class="style-78">
+                        <label class="style-79">To</label> <input type="date" class="style-80" placeholder="" />
+                    </div>
+                    <div class="style-81">
+                        <button class="style-82">Apply Filters</button>
+                    </div>
+                </div>
+            </div>
+            <div class="style-83">
+                <div class="style-84">
+                    <div class="style-85">
+                        <div class="style-86">
+                            <div class="style-87">
+                                <div class="style-88">
+                                    <ul class="style-89">
+                                        <li class="style-90">
+                                            <img src="{{ url_for('static', filename='img/assets/images//Base.jpg') }}" class="style-91" />
+                                        </li>
+                                        <li class="style-92">
+                                            <a href="/manager/inspectionview" class="style-93">
+                                                <span class="style-94">Article Number</span><span class="style-95">IW0926</span> </a>
+                                            <div class="style-96">
+                                                <p class="style-97">Article No:</p>
+                                                <p class="style-98">12345678910ID</p>
+                                            </div>
+                                            <div class="style-99">
+                                                <p class="style-100">Inspection Date:</p>
+                                                <p class="style-101">06/03/2024</p>
+                                            </div>
+                                            <div class="style-102">
+                                                <p class="style-103">Inspection Type:</p>
+                                                <p class="style-104">Lights Inspection</p>
+                                            </div>
+                                        </li>
+                                        <li class="style-105">
+                                            <h3 class="style-106">2</h3>
+                                            <p class="style-107">Defect Detected</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="style-108">
+                            <div class="style-109">
+                                <div class="style-110">
+                                    <ul class="style-111">
+                                        <li class="style-112">
+                                            <img src="{{ url_for('static', filename='img/assets/images//Base.jpg') }}" class="style-113" />
+                                        </li>
+                                        <li class="style-114">
+                                            <a href="/manager/inspectionview" class="style-115">
+                                                <span class="style-116">Article Number</span><span class="style-117">IW0926</span> </a>
+                                            <div class="style-118">
+                                                <p class="style-119">Article No:</p>
+                                                <p class="style-120">12345678910ID</p>
+                                            </div>
+                                            <div class="style-121">
+                                                <p class="style-122">Inspection Date:</p>
+                                                <p class="style-123">06/03/2024</p>
+                                            </div>
+                                            <div class="style-124">
+                                                <p class="style-125">Inspection Type:</p>
+                                                <p class="style-126">Lights Inspection</p>
+                                            </div>
+                                        </li>
+                                        <li class="style-127">
+                                            <h3 class="style-128">2</h3>
+                                            <p class="style-129">Defect Detected</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="style-130">
+                            <div class="style-131">
+                                <div class="style-132">
+                                    <ul class="style-133">
+                                        <li class="style-134">
+                                            <img src="{{ url_for('static', filename='img/assets/images//Base.jpg') }}" class="style-135" />
+                                        </li>
+                                        <li class="style-136">
+                                            <a href="/manager/inspectionview" class="style-137">
+                                                <span class="style-138">Article Number</span><span class="style-139">IW0926</span> </a>
+                                            <div class="style-140">
+                                                <p class="style-141">Article No:</p>
+                                                <p class="style-142">12345678910ID</p>
+                                            </div>
+                                            <div class="style-143">
+                                                <p class="style-144">Inspection Date:</p>
+                                                <p class="style-145">06/03/2024</p>
+                                            </div>
+                                            <div class="style-146">
+                                                <p class="style-147">Inspection Type:</p>
+                                                <p class="style-148">Lights Inspection</p>
+                                            </div>
+                                        </li>
+                                        <li class="style-149">
+                                            <h3 class="style-150">2</h3>
+                                            <p class="style-151">Defect Detected</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="style-152">
+                            <div class="style-153">
+                                <div class="style-154">
+                                    <ul class="style-155">
+                                        <li class="style-156">
+                                            <img src="{{ url_for('static', filename='img/assets/images//Base.jpg') }}" class="style-157" />
+                                        </li>
+                                        <li class="style-158">
+                                            <a href="/manager/inspectionview" class="style-159">
+                                                <span class="style-160">Article Number</span><span class="style-161">IW0926</span> </a>
+                                            <div class="style-162">
+                                                <p class="style-163">Article No:</p>
+                                                <p class="style-164">12345678910ID</p>
+                                            </div>
+                                            <div class="style-165">
+                                                <p class="style-166">Inspection Date:</p>
+                                                <p class="style-167">06/03/2024</p>
+                                            </div>
+                                            <div class="style-168">
+                                                <p class="style-169">Inspection Type:</p>
+                                                <p class="style-170">Lights Inspection</p>
+                                            </div>
+                                        </li>
+                                        <li class="style-171">
+                                            <h3 class="style-172">2</h3>
+                                            <p class="style-173">Defect Detected</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

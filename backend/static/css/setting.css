@@ -1,0 +1,218 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    width: 80%;
+    max-width: 1000px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 44px auto 10px auto; /* Centering the container horizontally and maintaining the top and bottom margins */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.setting {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.setting label {
+    flex: 1;
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.setting input[type="text"],
+.setting input[type="range"] {
+    flex: 2;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+}
+
+.setting input[type="text"]:focus,
+.setting input[type="range"]:focus {
+    border-color: #ff4d4d;
+    outline: none;
+}
+
+.setting input[type="checkbox"] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 40px;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    outline: none;
+}
+
+.setting input[type="checkbox"]:checked {
+    background-color: #ff4d4d;
+}
+
+.setting input[type="checkbox"]:checked::before {
+    left: 20px;
+}
+
+.setting input[type="checkbox"]::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: left 0.3s;
+}
+
+.setting button {
+    background-color: #ff4d4d;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.setting button:hover {
+    background-color: #e60000;
+}
+
+.box {
+    margin-left: -18px;
+    padding-left: 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.box .value-box {
+    background-color: #ff4d4d;
+    color: #fff;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%; /* Ensures each box takes up the full width */
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+}
+
+.box .value-box .remove {
+    cursor: pointer;
+    background-color: #fff;
+    color: #ff4d4d;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    margin-left: 6px;
+    margin-top: -1px;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.box .value-box .remove:hover {
+    background-color: #ff4d4d;
+    color: #fff;
+}
+
+
+.settings-container {
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+}
+
+.scrollable-settings {
+    max-height: 893px;
+    overflow-y: auto;
+    padding-right: 15px;
+}
+
+.scrollable-settings::-webkit-scrollbar {
+    width: 12px;
+}
+
+.scrollable-settings::-webkit-scrollbar-track {
+    background: #f0f0f0;
+}
+
+.scrollable-settings::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 10px;
+    border: 3px solid #f0f0f0;
+}
+
+.scrollable-settings::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+.settings-item {
+    margin-bottom: 10px;
+}
+
+.settings-item label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.settings-item input[type="text"],
+.settings-item input[type="range"] {
+    width: calc(100% - 12px);
+}
+
+.value-box {
+    background-color: #ff4d4d;
+    color: #fff;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%; /* Ensures each box takes up the full width */
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+}
+
+.value-box .remove {
+    cursor: pointer;
+    background-color: #fff;
+    color: #ff4d4d;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.value-box .remove:hover {
+    background-color: #ff4d4d;
+    color: #fff;
+}

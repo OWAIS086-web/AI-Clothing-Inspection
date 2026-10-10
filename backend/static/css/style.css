@@ -1,0 +1,1785 @@
+.style-0 {
+    cursor: auto;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    height: 607px;
+    width: 100vw;
+    background: rgb(247, 249, 250) none repeat scroll 0% 0% / auto padding-box border-box;
+    line-height: 16px;
+    text-size-adjust: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(33, 37, 41);
+    text-align: left;
+    background-color: rgb(247, 249, 250);
+}
+
+.style-1 {
+    max-height: 60px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    display: flex;
+    position: relative;
+    box-shadow: rgba(51, 70, 129, 0.13) 0px 3px 4px 0px;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 8px 16px;
+    font-family: 'Rubik Regular', sans-serif;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+
+.style-2 {
+    display: none;
+    font-family: 'Rubik Regular', sans-serif;
+    box-sizing: border-box;
+}
+
+.style-3 {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0);
+    color: rgb(33, 37, 41);
+    width: 100px;
+    font-size: 16px;
+    margin: auto;
+    padding: 6px 12px;
+    border-radius: 4px;
+    appearance: none;
+    font-family: 'Microsoft YaHei', 微软雅黑, Helvetica, Arial, sans-serif;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    line-height: 24px;
+    transition: color 0.15s ease-in-out 0s, background-color 0.15s ease-in-out 0s, border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    text-transform: none;
+    overflow: visible;
+    box-sizing: border-box;
+}
+
+.style-4 {
+    font-family: FontAwesome;
+    box-sizing: border-box;
+}
+
+.style-5 {
+    display: block;
+    text-decoration: none solid rgba(0, 0, 0, 0.9);
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 20px;
+    font-family: 'Rubik Regular', sans-serif;
+    font-weight: 600;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 16px;
+    line-height: 20px;
+    white-space: nowrap;
+    background-color: rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+}
+
+.style-6 {
+    font-family: 'Rubik Regular', sans-serif;
+    box-sizing: border-box;
+}
+
+.style-7 {
+    vertical-align: middle;
+    max-width: 100%;
+    font-family: 'Rubik Regular', sans-serif;
+    height: auto;
+    border-style: none;
+    box-sizing: border-box;
+}
+
+.style-8 {
+    display: none;
+    font-family: 'Rubik Regular', sans-serif;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.style-9 {
+    text-decoration: none solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: 'Rubik Regular', sans-serif;
+    margin-left: auto !important;
+    display: block;
+    padding: 8px 16px;
+    white-space: nowrap;
+    background-color: rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+}
+
+.style-10 {
+    vertical-align: middle;
+    font-family: 'Rubik Regular', sans-serif;
+    max-width: 100%;
+    height: auto;
+    border-style: none;
+    box-sizing: border-box;
+}
+
+.style-11 {
+    color: rgb(255, 255, 255);
+    height: 20px;
+    width: 20px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    left: 16px;
+    top: -3px;
+    font-size: 12px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Rubik Regular', sans-serif;
+    box-sizing: border-box;
+}
+
+.style-12 {
+    text-decoration: none solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: 'Rubik Regular', sans-serif;
+    margin-left: auto !important;
+    display: block;
+    padding: 8px 16px;
+    white-space: nowrap;
+    background-color: rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+}
+
+.style-13 {
+    font-family: 'Rubik Regular', sans-serif;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    list-style: outside none none;
+    box-sizing: border-box;
+}
+
+.style-14 {
+    display: none;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: rgba(0, 0, 0, 0.5);
+    width: 100px;
+    font-size: 20px;
+    margin: auto;
+    padding: 4px 12px;
+    border-radius: 4px;
+    appearance: button;
+    font-family: 'Microsoft YaHei', 微软雅黑, Helvetica, Arial, sans-serif;
+    border-color: rgba(0, 0, 0, 0.1);
+    line-height: 20px;
+    cursor: pointer;
+    text-transform: none;
+    overflow: visible;
+    box-sizing: border-box;
+}
+
+.style-15 {
+    font-family: 'Rubik Regular', sans-serif;
+    box-sizing: border-box;
+}
+
+.style-16 {
+    display: flex;
+    flex-basis: auto;
+    font-family: 'Rubik Regular', sans-serif;
+    flex-grow: 1;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.style-17 {
+    display: flex;
+    flex-direction: row;
+    list-style: outside none none;
+    font-family: 'Rubik Regular', sans-serif;
+    margin-left: auto !important;
+    position: relative;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    box-sizing: border-box;
+}
+
+.style-18 {
+    font-family: 'Rubik Regular', sans-serif;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.style-19 {
+    padding-right: 8px;
+    padding-left: 8px;
+    text-decoration: none solid rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    font-family: 'Rubik Regular', sans-serif;
+    margin-left: auto !important;
+    display: block;
+    white-space: nowrap;
+    background-color: rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+}
+
+.style-20 {
+    vertical-align: middle;
+    font-family: 'Rubik Regular', sans-serif;
+    max-width: 100%;
+    height: auto;
+    border-style: none;
+    box-sizing: border-box;
+}
+
+.style-21 {
+    color: rgb(255, 255, 255);
+    height: 20px;
+    width: 20px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    left: 16px;
+    top: -3px;
+    font-size: 12px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Rubik Regular', sans-serif;
+    box-sizing: border-box;
+}
+
+.style-22 {
+    position: absolute;
+    font-family: 'Rubik Regular', sans-serif;
+    float: none;
+    right: 0px;
+    left: auto;
+    top: 100%;
+    z-index: 1000;
+    display: none;
+    min-width: 160px;
+    padding: 8px 0px;
+    margin: 2px 0px 0px;
+    font-size: 16px;
+    color: rgb(33, 37, 41);
+    text-align: left;
+    list-style: outside none none;
+    background-color: rgb(255, 255, 255);
+    -webkit-background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    box-sizing: border-box;
+    -webkit-background-clip: padding-box;
+}
+
+.style-23 {
+    flex-direction: row;
+    list-style: outside none none;
+    font-family: 'Rubik Regular', sans-serif;
+    display: flex;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    box-sizing: border-box;
+}
+
+.style-24 {
+    font-family: 'Rubik Regular', sans-serif;
+    align-self: center;
+    box-sizing: border-box;
+}
+
+.style-25 {
+    padding-right: 8px;
+    padding-left: 8px;
+    text-decoration: none solid rgb(51, 70, 129);
+    color: rgb(51, 70, 129);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    font-family: 'Rubik Regular', sans-serif;
+    display: block;
+    background-color: rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+}
+
+.style-26 {
+    font-family: 'Rubik Regular', sans-serif;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.style-27 {
+    display: block;
+    width: 5%;
+    transition: width 1s ease-in-out 0s;
+    max-width: 19%;
+    background-color: rgb(255, 255, 255);
+    min-height: 564.51px;
+    font-family: 'Rubik Regular', sans-serif;
+    box-sizing: border-box;
+}
+
+.style-28 {
+    font-family: 'Rubik Regular', sans-serif;
+    box-sizing: border-box;
+}
+
+.style-29 {
+    margin-top: 1%;
+    padding: 10px 25px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+    font-family: 'Rubik Regular', sans-serif;
+    box-sizing: border-box;
+}
+
+.style-30 {
+    margin-top: 1%;
+    padding: 10px 25px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    font-family: 'Rubik Regular', sans-serif;
+    max-width: 100%;
+    height: auto;
+    border-style: none;
+    box-sizing: border-box;
+}
+
+.style-31 {
+    display: none;
+    font-family: 'Rubik Regular', sans-serif;
+    float: right;
+    box-sizing: border-box;
+}
+
+.style-32 {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0);
+    color: rgb(33, 37, 41);
+    width: 100px;
+    font-size: 16px;
+    margin: auto;
+    padding: 6px 12px;
+    border-radius: 4px;
+    appearance: none;
+    font-family: 'Microsoft YaHei', 微软雅黑, Helvetica, Arial, sans-serif;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    line-height: 24px;
+    transition: color 0.15s ease-in-out 0s, background-color 0.15s ease-in-out 0s, border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    text-transform: none;
+    overflow: visible;
+    box-sizing: border-box;
+}
+
+.style-33 {
+    color: rgb(0, 0, 0);
+    font-family: FontAwesome;
+    box-sizing: border-box;
+}
+
+.style-34 {
+    margin-top: 40px;
+    width: 100%;
+    font-family: 'Rubik Regular', sans-serif;
+    box-sizing: border-box;
+}
+
+.style-35 {
+    list-style: outside none none;
+    font-family: 'Rubik Regular', sans-serif;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+.style-36 {
+    margin-bottom: 10px;
+    padding: 12px 0px;
+    width: 100%;
+    font-family: 'Rubik Regular', sans-serif;
+    box-sizing: border-box;
+}
+
+.style-37 {
+    text-align: center;
+    text-decoration: none solid rgb(223, 99, 69);
+    color: rgb(223, 99, 69);
+    font-size: 16px;
+    padding: 0px 7px;
+    width: 80%;
+    margin: 0px auto;
+    display: list-item;
+    letter-spacing: normal;
+    font-weight: 400;
+    font-family: 'Rubik Regular', sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+}
+
+.style-38 {
+    background-color: rgb(238, 241, 244);
+    padding: 11px;
+    border-radius: 3px;
+    display: inline-block;
+    width: auto !important;
+    height: auto !important;
+    opacity: 1;
+    transition: width 2s ease-in-out 0s, visibility 2s ease-in-out 0s, opacity 2s ease-in-out 0s, height 2s ease-in-out 0s;
+    font-family: 'Rubik Regular', sans-serif;
+    box-sizing: border-box;
+}
+
+.style-39 {
+    font-family: 'Rubik Regular', sans-serif;
+    overflow: hidden;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+.style-40 {
+    font-family: 'Rubik Regular', sans-serif;
+    box-sizing: border-box;
+}
+
+.style-41 {
+    font-family: 'Rubik Regular', sans-serif;
+    box-sizing: border-box;
+}
+
+.style-42 {
+    font-family: 'Rubik Regular', sans-serif;
+    box-sizing: border-box;
+}
+
+.style-43 {
+    visibility: visible;
+    opacity: 1;
+    font-size: 10px;
+    height: 0px;
+    width: 100%;
+    display: block;
+    margin-top: 5px;
+    transition: width 0.5s ease-in-out 0s, visibility 0.5s ease-in-out 0s, opacity 0.5s ease-in-out 0s, height 0.5s ease-in-out 0s;
+    font-family: 'Rubik Regular', sans-serif;
+    box-sizing: border-box;
+}
+
+.style-44 {
+    margin-bottom: 10px;
+    padding: 12px 0px;
+    width: 100%;
+    font-family: 'Rubik Regular', sans-serif;
+    box-sizing: border-box;
+}
+
+.style-45 {
+    text-align: center;
+    text-decoration: none solid rgb(57, 160, 220);
+    color: rgb(57, 160, 220);
+    font-size: 16px;
+    padding: 0px 7px;
+    width: 80%;
+    margin: 0px auto;
+    display: list-item;
+    letter-spacing: normal;
+    font-weight: 600;
+    font-family: 'Rubik Regular', sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+}
+
+.style-46 {
+    background-color: rgb(254, 26, 61);
+    color: rgb(255, 255, 255);
+    padding: 11px;
+    border-radius: 3px;
+    display: inline-block;
+    width: auto !important;
+    height: auto !important;
+    opacity: 1;
+    transition: width 2s ease-in-out 0s, visibility 2s ease-in-out 0s, opacity 2s ease-in-out 0s, height 2s ease-in-out 0s;
+    font-family: 'Rubik Regular', sans-serif;
+    box-sizing: border-box;
+}
+
+.style-47 {
+    font-family: 'Rubik Regular', sans-serif;
+    overflow: hidden;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+.style-48 {
+    fill: rgb(255, 255, 255);
+    font-family: 'Rubik Regular', sans-serif;
+    box-sizing: border-box;
+}
+
+.style-49 {
+    fill: rgb(255, 255, 255);
+    font-family: 'Rubik Regular', sans-serif;
+    box-sizing: border-box;
+}
+
+.style-50 {
+    fill: rgb(255, 255, 255);
+    font-family: 'Rubik Regular', sans-serif;
+    box-sizing: border-box;
+}
+
+.style-51 {
+    fill: rgb(255, 255, 255);
+    font-family: 'Rubik Regular', sans-serif;
+    box-sizing: border-box;
+}
+
+.style-52 {
+    visibility: visible;
+    opacity: 1;
+    font-size: 10px;
+    height: 0px;
+    width: 100%;
+    display: block;
+    margin-top: 5px;
+    transition: width 0.5s ease-in-out 0s, visibility 0.5s ease-in-out 0s, opacity 0.5s ease-in-out 0s, height 0.5s ease-in-out 0s;
+    color: rgb(223, 99, 69);
+    font-family: 'Rubik Regular', sans-serif;
+    box-sizing: border-box;
+}
+
+.style-53 {
+    width: 95%;
+    transition: width 1s ease-in-out 0s;
+    background-color: rgb(243, 247, 249);
+    min-height: 564.51px;
+    font-family: 'Rubik Regular', sans-serif;
+    box-sizing: border-box;
+}
+
+.style-54 {
+    font-family: 'Rubik Regular', sans-serif;
+    box-sizing: border-box;
+}
+
+.style-55 {
+    padding: 30px;
+    font-family: 'Rubik Regular', sans-serif;
+    box-sizing: border-box;
+}
+
+.style-56 {
+    font-family: 'Rubik Regular', sans-serif;
+    margin-bottom: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    box-sizing: border-box;
+}
+
+.style-57 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    font-family: 'Rubik Regular', sans-serif;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.style-58 {
+    font-family: 'Rubik Regular', sans-serif;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.style-59 {
+    font-family: 'Rubik Regular', sans-serif;
+    margin-right: 8px;
+    box-sizing: border-box;
+}
+
+.style-60 {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    width: 50px;
+    font-size: 16px;
+    margin: left;
+    padding: 6px 12px;
+    border-radius: 4px;
+    appearance: button;
+    font-family: 'Microsoft YaHei', 微软雅黑, Helvetica, Arial, sans-serif;
+    display: block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    line-height: 24px;
+    transition: color 0.15s ease-in-out 0s, background-color 0.15s ease-in-out 0s, border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    text-transform: none;
+    overflow: visible;
+    box-sizing: border-box;
+}
+
+.style-61 {
+    vertical-align: middle;
+    font-family: 'Rubik Regular', sans-serif;
+    border-style: none;
+    box-sizing: border-box;
+}
+
+.style-62 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    font-family: 'Rubik Regular', sans-serif;
+    text-align: right;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.style-63 {
+    background-color: rgb(254, 26, 61);
+    border: 1px solid rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    width: 180;
+    font-size: 16px;
+    margin: auto;
+    padding: 6px 24px;
+    border-radius: 30px;
+    appearance: none;
+    font-family: 'Microsoft YaHei', 微软雅黑, Helvetica, Arial, sans-serif;
+    padding-left: 24px;
+    padding-right: 24px;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    line-height: 24px;
+    transition: color 0.15s ease-in-out 0s, background-color 0.15s ease-in-out 0s, border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    text-transform: none;
+    overflow: visible;
+    box-sizing: border-box;
+}
+
+.style-64 {
+    font-family: 'Rubik Regular', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    box-sizing: border-box;
+}
+
+.style-65 {
+    flex: 0 0 41.6667%;
+    max-width: 41.6667%;
+    font-family: 'Rubik Regular', sans-serif;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.style-66 {
+    border-radius: 20px;
+    box-shadow: rgba(211, 211, 211, 0.83) 0px 1px 5px 0px;
+    font-family: 'Rubik Regular', sans-serif;
+    margin-bottom: 16px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0px;
+    overflow-wrap: break-word;
+    background-color: rgb(255, 255, 255);
+    -webkit-background-clip: border-box;
+    box-sizing: border-box;
+    -webkit-background-clip: border-box;
+}
+
+.style-67 {
+    background-color: rgb(0, 0, 0);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-bottom: 16px;
+    border-bottom: 0px none rgb(255, 255, 255);
+    padding-top: 16px;
+    font-family: 'Rubik Regular', sans-serif;
+    color: rgb(255, 255, 255);
+    border-radius: 20px 20px 0px 0px;
+    padding: 16px 20px;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+}
+
+.style-68 {
+    font-family: 'Rubik Regular', sans-serif;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    box-sizing: border-box;
+}
+
+.style-69 {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+    font-family: 'Rubik Regular', sans-serif;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.style-70 {
+    font-size: 14px;
+    font-family: 'Rubik Regular', sans-serif;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+.style-71 {
+    flex: 0 0 66.6667%;
+    max-width: 66.6667%;
+    font-family: 'Rubik Regular', sans-serif;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.style-72 {
+    font-family: 'Rubik Regular', sans-serif;
+    text-align: right;
+    display: block;
+    box-sizing: border-box;
+}
+
+.style-73 {
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: rgb(254, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    font-family: 'Rubik Regular', sans-serif;
+    margin: 0px;
+    width: auto !important;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    padding: 6px 12px;
+    line-height: 21px;
+    transition: color 0.15s ease-in-out 0s, background-color 0.15s ease-in-out 0s, border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+}
+
+.style-74 {
+    width: 200px;
+    background-color: rgb(211, 211, 211);
+    padding: 10px;
+    height: 30px;
+    border: 0px none rgb(166, 168, 169);
+    border-radius: 10px;
+    vertical-align: top;
+    outline: rgb(166, 168, 169) none 0px;
+    appearance: none;
+    font-family: 'Microsoft YaHei', 微软雅黑, Helvetica, Arial, sans-serif;
+    display: none;
+    overflow: hidden;
+    margin: 0px;
+    font-size: 14px;
+    line-height: 21px;
+    box-sizing: border-box;
+}
+
+.style-75 {
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(254, 255, 255);
+    border-radius: 8px;
+    font-family: 'Rubik Regular', sans-serif;
+    margin: 0px;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    padding: 6px 12px;
+    line-height: 21px;
+    transition: color 0.15s ease-in-out 0s, background-color 0.15s ease-in-out 0s, border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+}
+
+.style-76 {
+    width: 200px;
+    background-color: rgb(211, 211, 211);
+    padding: 10px;
+    height: 30px;
+    border: 0px none rgb(166, 168, 169);
+    border-radius: 10px;
+    vertical-align: top;
+    outline: rgb(166, 168, 169) none 0px;
+    appearance: none;
+    font-family: 'Microsoft YaHei', 微软雅黑, Helvetica, Arial, sans-serif;
+    display: none;
+    overflow: hidden;
+    margin: 0px;
+    font-size: 14px;
+    line-height: 21px;
+    box-sizing: border-box;
+}
+
+.style-77 {
+    font-family: 'Rubik Regular', sans-serif;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.style-78 {
+    color: rgb(81, 76, 84);
+    font-weight: 700;
+    font-family: 'Rubik Regular', sans-serif;
+    margin-bottom: 16px;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 0px;
+    box-sizing: border-box;
+}
+
+.style-79 {
+    border-collapse: collapse;
+    border-spacing: 0px 0px;
+    font-family: 'Rubik Regular', sans-serif;
+    margin-bottom: 16px;
+    width: 100%;
+    color: rgb(33, 37, 41);
+    box-sizing: border-box;
+}
+
+.style-80 {
+    font-family: 'Rubik Regular', sans-serif;
+    box-sizing: border-box;
+}
+
+.style-81 {
+    font-family: 'Rubik Regular', sans-serif;
+    box-sizing: border-box;
+}
+
+.style-82 {
+    border: 1px solid rgb(222, 226, 230);
+    color: rgb(81, 76, 84);
+    font-weight: 700;
+    font-size: 12px;
+    padding: 8px;
+    font-family: 'Rubik Regular', sans-serif;
+    vertical-align: top;
+    border-top: 1px solid rgb(222, 226, 230);
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.style-83 {
+    border: 1px solid rgb(222, 226, 230);
+    color: rgb(81, 76, 84);
+    font-weight: 700;
+    font-size: 12px;
+    padding: 8px;
+    font-family: 'Rubik Regular', sans-serif;
+    vertical-align: top;
+    border-top: 1px solid rgb(222, 226, 230);
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.style-84 {
+    border: 1px solid rgb(222, 226, 230);
+    color: rgb(81, 76, 84);
+    font-weight: 700;
+    font-size: 12px;
+    padding: 8px;
+    font-family: 'Rubik Regular', sans-serif;
+    vertical-align: top;
+    border-top: 1px solid rgb(222, 226, 230);
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.style-85 {
+    font-family: 'Rubik Regular', sans-serif;
+    box-sizing: border-box;
+}
+
+.style-86 {
+    border-left: 1px solid rgb(222, 226, 230);
+    color: rgb(81, 76, 84);
+    font-size: 12px;
+    padding: 8px;
+    font-family: 'Rubik Regular', sans-serif;
+    vertical-align: top;
+    border-top: 1px solid rgb(222, 226, 230);
+    box-sizing: border-box;
+}
+
+.style-87 {
+    border: 1px solid rgb(222, 226, 230);
+    color: rgb(81, 76, 84);
+    font-size: 12px;
+    padding: 8px;
+    font-family: 'Rubik Regular', sans-serif;
+    vertical-align: top;
+    border-top: 1px solid rgb(222, 226, 230);
+    box-sizing: border-box;
+}
+
+.style-88 {
+    border-right: 1px solid rgb(222, 226, 230);
+    color: rgb(81, 76, 84);
+    font-size: 12px;
+    padding: 8px;
+    font-family: 'Rubik Regular', sans-serif;
+    vertical-align: top;
+    border-top: 1px solid rgb(222, 226, 230);
+    box-sizing: border-box;
+}
+
+.style-89 {
+    font-family: 'Rubik Regular', sans-serif;
+    box-sizing: border-box;
+}
+
+.style-90 {
+    border-left: 1px solid rgb(222, 226, 230);
+    color: rgb(81, 76, 84);
+    font-size: 12px;
+    padding: 8px;
+    font-family: 'Rubik Regular', sans-serif;
+    vertical-align: top;
+    border-top: 1px solid rgb(222, 226, 230);
+    box-sizing: border-box;
+}
+
+.style-91 {
+    border: 1px solid rgb(222, 226, 230);
+    color: rgb(81, 76, 84);
+    font-size: 12px;
+    padding: 8px;
+    font-family: 'Rubik Regular', sans-serif;
+    vertical-align: top;
+    border-top: 1px solid rgb(222, 226, 230);
+    box-sizing: border-box;
+}
+
+.style-92 {
+    border-right: 1px solid rgb(222, 226, 230);
+    color: rgb(81, 76, 84);
+    font-size: 12px;
+    padding: 8px;
+    font-family: 'Rubik Regular', sans-serif;
+    vertical-align: top;
+    border-top: 1px solid rgb(222, 226, 230);
+    box-sizing: border-box;
+}
+
+.style-93 {
+    font-family: 'Rubik Regular', sans-serif;
+    box-sizing: border-box;
+}
+
+.style-94 {
+    border-left: 1px solid rgb(222, 226, 230);
+    color: rgb(81, 76, 84);
+    font-size: 12px;
+    padding: 8px;
+    font-family: 'Rubik Regular', sans-serif;
+    vertical-align: top;
+    border-top: 1px solid rgb(222, 226, 230);
+    box-sizing: border-box;
+}
+
+.style-95 {
+    border: 1px solid rgb(222, 226, 230);
+    color: rgb(81, 76, 84);
+    font-size: 12px;
+    padding: 8px;
+    font-family: 'Rubik Regular', sans-serif;
+    vertical-align: top;
+    border-top: 1px solid rgb(222, 226, 230);
+    box-sizing: border-box;
+}
+
+.style-96 {
+    border-right: 1px solid rgb(222, 226, 230);
+    color: rgb(81, 76, 84);
+    font-size: 12px;
+    padding: 8px;
+    font-family: 'Rubik Regular', sans-serif;
+    vertical-align: top;
+    border-top: 1px solid rgb(222, 226, 230);
+    box-sizing: border-box;
+}
+
+.style-97 {
+    color: rgb(81, 76, 84);
+    font-weight: 700;
+    font-family: 'Rubik Regular', sans-serif;
+    margin-bottom: 16px;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 0px;
+    box-sizing: border-box;
+}
+
+.style-98 {
+    border-collapse: collapse;
+    border-spacing: 0px 0px;
+    font-family: 'Rubik Regular', sans-serif;
+    margin-bottom: 16px;
+    width: 100%;
+    color: rgb(33, 37, 41);
+    box-sizing: border-box;
+}
+
+.style-99 {
+    font-family: 'Rubik Regular', sans-serif;
+    box-sizing: border-box;
+}
+
+.style-100 {
+    font-family: 'Rubik Regular', sans-serif;
+    box-sizing: border-box;
+}
+
+.style-101 {
+    border: 1px solid rgb(222, 226, 230);
+    color: rgb(81, 76, 84);
+    font-weight: 700;
+    font-size: 12px;
+    padding: 8px;
+    font-family: 'Rubik Regular', sans-serif;
+    vertical-align: top;
+    border-top: 1px solid rgb(222, 226, 230);
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.style-102 {
+    border: 1px solid rgb(222, 226, 230);
+    color: rgb(81, 76, 84);
+    font-weight: 700;
+    font-size: 12px;
+    padding: 8px;
+    font-family: 'Rubik Regular', sans-serif;
+    vertical-align: top;
+    border-top: 1px solid rgb(222, 226, 230);
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.style-103 {
+    font-family: 'Rubik Regular', sans-serif;
+    box-sizing: border-box;
+}
+
+.style-104 {
+    border-left: 1px solid rgb(222, 226, 230);
+    color: rgb(81, 76, 84);
+    font-size: 12px;
+    padding: 8px;
+    font-family: 'Rubik Regular', sans-serif;
+    vertical-align: top;
+    border-top: 1px solid rgb(222, 226, 230);
+    box-sizing: border-box;
+}
+
+.style-105 {
+    border-right: 1px solid rgb(222, 226, 230);
+    color: rgb(81, 76, 84);
+    font-size: 12px;
+    padding: 8px;
+    font-family: 'Rubik Regular', sans-serif;
+    vertical-align: top;
+    border-top: 1px solid rgb(222, 226, 230);
+    box-sizing: border-box;
+}
+
+.style-106 {
+    font-family: 'Rubik Regular', sans-serif;
+    box-sizing: border-box;
+}
+
+.style-107 {
+    border-left: 1px solid rgb(222, 226, 230);
+    color: rgb(81, 76, 84);
+    font-size: 12px;
+    padding: 8px;
+    font-family: 'Rubik Regular', sans-serif;
+    vertical-align: top;
+    border-top: 1px solid rgb(222, 226, 230);
+    box-sizing: border-box;
+}
+
+.style-108 {
+    border-right: 1px solid rgb(222, 226, 230);
+    color: rgb(81, 76, 84);
+    font-size: 12px;
+    padding: 8px;
+    font-family: 'Rubik Regular', sans-serif;
+    vertical-align: top;
+    border-top: 1px solid rgb(222, 226, 230);
+    box-sizing: border-box;
+}
+
+.style-109 {
+    font-family: 'Rubik Regular', sans-serif;
+    box-sizing: border-box;
+}
+
+.style-110 {
+    border-left: 1px solid rgb(222, 226, 230);
+    color: rgb(81, 76, 84);
+    font-size: 12px;
+    padding: 8px;
+    font-family: 'Rubik Regular', sans-serif;
+    vertical-align: top;
+    border-top: 1px solid rgb(222, 226, 230);
+    box-sizing: border-box;
+}
+
+.style-111 {
+    border-right: 1px solid rgb(222, 226, 230);
+    color: rgb(81, 76, 84);
+    font-size: 12px;
+    padding: 8px;
+    font-family: 'Rubik Regular', sans-serif;
+    vertical-align: top;
+    border-top: 1px solid rgb(222, 226, 230);
+    box-sizing: border-box;
+}
+
+.style-112 {
+    font-family: 'Rubik Regular', sans-serif;
+    box-sizing: border-box;
+}
+
+.style-113 {
+    border-left: 1px solid rgb(222, 226, 230);
+    color: rgb(81, 76, 84);
+    font-size: 12px;
+    padding: 8px;
+    font-family: 'Rubik Regular', sans-serif;
+    vertical-align: top;
+    border-top: 1px solid rgb(222, 226, 230);
+    box-sizing: border-box;
+}
+
+.style-114 {
+    border-right: 1px solid rgb(222, 226, 230);
+    color: rgb(81, 76, 84);
+    font-size: 12px;
+    padding: 8px;
+    font-family: 'Rubik Regular', sans-serif;
+    vertical-align: top;
+    border-top: 1px solid rgb(222, 226, 230);
+    box-sizing: border-box;
+}
+
+.style-115 {
+    font-family: 'Rubik Regular', sans-serif;
+    box-sizing: border-box;
+}
+
+.style-116 {
+    border-left: 1px solid rgb(222, 226, 230);
+    color: rgb(81, 76, 84);
+    font-size: 12px;
+    padding: 8px;
+    font-family: 'Rubik Regular', sans-serif;
+    vertical-align: top;
+    border-top: 1px solid rgb(222, 226, 230);
+    box-sizing: border-box;
+}
+
+.style-117 {
+    border-right: 1px solid rgb(222, 226, 230);
+    color: rgb(81, 76, 84);
+    font-size: 12px;
+    padding: 8px;
+    font-family: 'Rubik Regular', sans-serif;
+    vertical-align: top;
+    border-top: 1px solid rgb(222, 226, 230);
+    box-sizing: border-box;
+}
+
+.style-118 {
+    color: rgb(81, 76, 84);
+    font-weight: 700;
+    font-family: 'Rubik Regular', sans-serif;
+    margin-bottom: 16px;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 0px;
+    box-sizing: border-box;
+}
+
+.style-119 {
+    border-collapse: collapse;
+    border-spacing: 0px 0px;
+    font-family: 'Rubik Regular', sans-serif;
+    margin-bottom: 16px;
+    width: 100%;
+    color: rgb(33, 37, 41);
+    box-sizing: border-box;
+}
+
+.style-120 {
+    font-family: 'Rubik Regular', sans-serif;
+    box-sizing: border-box;
+}
+
+.style-121 {
+    font-family: 'Rubik Regular', sans-serif;
+    box-sizing: border-box;
+}
+
+.style-122 {
+    border: 1px solid rgb(222, 226, 230);
+    color: rgb(81, 76, 84);
+    font-weight: 700;
+    font-size: 12px;
+    padding: 8px;
+    font-family: 'Rubik Regular', sans-serif;
+    vertical-align: top;
+    border-top: 1px solid rgb(222, 226, 230);
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.style-123 {
+    border: 1px solid rgb(222, 226, 230);
+    color: rgb(81, 76, 84);
+    font-weight: 700;
+    font-size: 12px;
+    padding: 8px;
+    font-family: 'Rubik Regular', sans-serif;
+    vertical-align: top;
+    border-top: 1px solid rgb(222, 226, 230);
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.style-124 {
+    font-family: 'Rubik Regular', sans-serif;
+    box-sizing: border-box;
+}
+
+.style-125 {
+    border-left: 1px solid rgb(222, 226, 230);
+    color: rgb(81, 76, 84);
+    font-size: 12px;
+    padding: 8px;
+    font-family: 'Rubik Regular', sans-serif;
+    vertical-align: top;
+    border-top: 1px solid rgb(222, 226, 230);
+    box-sizing: border-box;
+}
+
+.style-126 {
+    border-right: 1px solid rgb(222, 226, 230);
+    color: rgb(81, 76, 84);
+    font-size: 12px;
+    padding: 8px;
+    font-family: 'Rubik Regular', sans-serif;
+    vertical-align: top;
+    border-top: 1px solid rgb(222, 226, 230);
+    box-sizing: border-box;
+}
+
+.style-127 {
+    font-family: 'Rubik Regular', sans-serif;
+    box-sizing: border-box;
+}
+
+.style-128 {
+    border-left: 1px solid rgb(222, 226, 230);
+    color: rgb(81, 76, 84);
+    font-size: 12px;
+    padding: 8px;
+    font-family: 'Rubik Regular', sans-serif;
+    vertical-align: top;
+    border-top: 1px solid rgb(222, 226, 230);
+    box-sizing: border-box;
+}
+
+.style-129 {
+    border-right: 1px solid rgb(222, 226, 230);
+    color: rgb(81, 76, 84);
+    font-size: 12px;
+    padding: 8px;
+    font-family: 'Rubik Regular', sans-serif;
+    vertical-align: top;
+    border-top: 1px solid rgb(222, 226, 230);
+    box-sizing: border-box;
+}
+
+.style-130 {
+    font-family: 'Rubik Regular', sans-serif;
+    box-sizing: border-box;
+}
+
+.style-131 {
+    border-left: 1px solid rgb(222, 226, 230);
+    color: rgb(81, 76, 84);
+    font-size: 12px;
+    padding: 8px;
+    font-family: 'Rubik Regular', sans-serif;
+    vertical-align: top;
+    border-top: 1px solid rgb(222, 226, 230);
+    box-sizing: border-box;
+}
+
+.style-132 {
+    border-right: 1px solid rgb(222, 226, 230);
+    color: rgb(81, 76, 84);
+    font-size: 12px;
+    padding: 8px;
+    font-family: 'Rubik Regular', sans-serif;
+    vertical-align: top;
+    border-top: 1px solid rgb(222, 226, 230);
+    box-sizing: border-box;
+}
+
+.style-133 {
+    font-family: 'Rubik Regular', sans-serif;
+    box-sizing: border-box;
+}
+
+.style-134 {
+    border-left: 1px solid rgb(222, 226, 230);
+    color: rgb(81, 76, 84);
+    font-size: 12px;
+    padding: 8px;
+    font-family: 'Rubik Regular', sans-serif;
+    vertical-align: top;
+    border-top: 1px solid rgb(222, 226, 230);
+    box-sizing: border-box;
+}
+
+.style-135 {
+    border-right: 1px solid rgb(222, 226, 230);
+    color: rgb(81, 76, 84);
+    font-size: 12px;
+    padding: 8px;
+    font-family: 'Rubik Regular', sans-serif;
+    vertical-align: top;
+    border-top: 1px solid rgb(222, 226, 230);
+    box-sizing: border-box;
+}
+
+.style-136 {
+    border-radius: 20px;
+    box-shadow: rgba(211, 211, 211, 0.83) 0px 1px 5px 0px;
+    font-family: 'Rubik Regular', sans-serif;
+    margin-bottom: 16px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0px;
+    overflow-wrap: break-word;
+    background-color: rgb(255, 255, 255);
+    -webkit-background-clip: border-box;
+    box-sizing: border-box;
+    -webkit-background-clip: border-box;
+}
+
+.style-137 {
+    background-color: rgb(0, 0, 0);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-bottom: 16px;
+    border-bottom: 0px none rgb(255, 255, 255);
+    padding-top: 16px;
+    font-family: 'Rubik Regular', sans-serif;
+    color: rgb(255, 255, 255);
+    border-radius: 20px 20px 0px 0px;
+    padding: 16px 20px;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+}
+
+.style-138 {
+    font-family: 'Rubik Regular', sans-serif;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    box-sizing: border-box;
+}
+
+.style-139 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    font-family: 'Rubik Regular', sans-serif;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.style-140 {
+    font-size: 14px;
+    font-family: 'Rubik Regular', sans-serif;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+.style-141 {
+    font-family: 'Rubik Regular', sans-serif;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.style-142 {
+    vertical-align: middle;
+    font-family: 'Rubik Regular', sans-serif;
+    max-width: 100%;
+    height: auto;
+    border-style: none;
+    box-sizing: border-box;
+}
+
+.style-143 {
+    flex: 0 0 58.3333%;
+    max-width: 58.3333%;
+    font-family: 'Rubik Regular', sans-serif;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.style-144 {
+    border-radius: 20px;
+    box-shadow: rgba(211, 211, 211, 0.83) 0px 1px 5px 0px;
+    font-family: 'Rubik Regular', sans-serif;
+    margin-bottom: 16px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0px;
+    overflow-wrap: break-word;
+    background-color: rgb(255, 255, 255);
+    -webkit-background-clip: border-box;
+    box-sizing: border-box;
+    -webkit-background-clip: border-box;
+}
+
+.style-145 {
+    background-color: rgb(0, 0, 0);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-bottom: 16px;
+    border-bottom: 0px none rgb(255, 255, 255);
+    padding-top: 16px;
+    font-family: 'Rubik Regular', sans-serif;
+    color: rgb(255, 255, 255);
+    border-radius: 20px 20px 0px 0px;
+    padding: 16px 20px;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+}
+
+.style-146 {
+    font-family: 'Rubik Regular', sans-serif;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    box-sizing: border-box;
+}
+
+.style-147 {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+    font-family: 'Rubik Regular', sans-serif;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.style-148 {
+    font-size: 14px;
+    font-family: 'Rubik Regular', sans-serif;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+.style-149 {
+    flex: 0 0 66.6667%;
+    max-width: 66.6667%;
+    font-family: 'Rubik Regular', sans-serif;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.style-150 {
+    font-family: 'Rubik Regular', sans-serif;
+    text-align: right;
+    display: block;
+    box-sizing: border-box;
+}
+
+.style-151 {
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: rgb(242, 244, 245);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    font-family: 'Rubik Regular', sans-serif;
+    margin: 0px;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    padding: 6px 12px;
+    line-height: 21px;
+    transition: color 0.15s ease-in-out 0s, background-color 0.15s ease-in-out 0s, border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+}
+
+.style-152 {
+    width: 200px;
+    background-color: rgb(211, 211, 211);
+    padding: 10px;
+    height: 30px;
+    border: 0px none rgb(166, 168, 169);
+    border-radius: 10px;
+    vertical-align: top;
+    outline: rgb(166, 168, 169) none 0px;
+    appearance: none;
+    font-family: 'Microsoft YaHei', 微软雅黑, Helvetica, Arial, sans-serif;
+    display: none;
+    overflow: hidden;
+    margin: 0px;
+    font-size: 14px;
+    line-height: 21px;
+    box-sizing: border-box;
+}
+
+.style-153 {
+    font-family: 'Rubik Regular', sans-serif;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+
+.style-154 {
+    vertical-align: middle;
+    font-family: 'Rubik Regular', sans-serif;
+    width: 100% !important;
+    max-width: 100%;
+    height: auto;
+    border-style: none;
+    box-sizing: border-box;
+}
+
+.style-155 {
+    border-radius: 20px;
+    box-shadow: rgba(211, 211, 211, 0.83) 0px 1px 5px 0px;
+    font-family: 'Rubik Regular', sans-serif;
+    margin-bottom: 16px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0px;
+    overflow-wrap: break-word;
+    background-color: rgb(255, 255, 255);
+    -webkit-background-clip: border-box;
+    box-sizing: border-box;
+    -webkit-background-clip: border-box;
+}
+
+.style-156 {
+    background-color: rgb(0, 0, 0);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-bottom: 16px;
+    border-bottom: 0px none rgb(255, 255, 255);
+    padding-top: 16px;
+    font-family: 'Rubik Regular', sans-serif;
+    color: rgb(255, 255, 255);
+    border-radius: 20px 20px 0px 0px;
+    padding: 16px 20px;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+}
+
+.style-157 {
+    font-family: 'Rubik Regular', sans-serif;
+    box-sizing: border-box;
+}
+
+.style-158 {
+    font-size: 14px;
+    font-family: 'Rubik Regular', sans-serif;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+}
+
+.style-159 {
+    font-family: 'Rubik Regular', sans-serif;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.style-160 {
+    vertical-align: middle;
+    font-family: 'Rubik Regular', sans-serif;
+    max-width: 100%;
+    height: auto;
+    border-style: none;
+    box-sizing: border-box;
+}
+
+.style-161 {
+    vertical-align: middle;
+    font-family: 'Rubik Regular', sans-serif;
+    max-width: 100%;
+    height: auto;
+    border-style: none;
+    box-sizing: border-box;
+}
+
+/* Add any necessary styles here or make sure existing styles are used for consistency */
+body {
+    font-family: Arial, sans-serif;
+}
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+.login-box {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+.login-box h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.login-box input[type="text"], .login-box input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.login-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.login-box button:hover {
+    background-color: #e60000;
+}
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+.logContainer {
+    height: 300px; /* Set a fixed height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    background-color: black; /* Terminal-like background */
+    color: white; /* Terminal-like text color */
+    font-family: monospace; /* Terminal-like font */
+    padding: 10px;
+    border: 3px solid #f50505; /* Optional: Border for visual separation */
+}
+
+.subtract {
+    width: 30px;
+    height: 30px;
+    margin-left: 28px;
+    margin-top: 10px;
+  }

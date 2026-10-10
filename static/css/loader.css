@@ -1,0 +1,95 @@
+.loader {
+    text-align: center;
+    position: relative;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.loader-ai {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.robot {
+    width: 60px;
+    height: 60px;
+    margin-bottom: -94px;
+    margin-left: 130px;
+}
+
+.circle-loader {
+    width: 100px;
+    height: 100px;
+    border: 10px solid rgba(255, 255, 255, 0.3);
+    border-top: 10px solid red;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 6px;
+    animation: spin 2s linear infinite;
+}
+
+.loader-text {
+    font-size: 24px;
+    color: black;
+    text-shadow: 0 0 10px white;
+    display: flex;
+    margin-top: 310px;
+    justify-content: center;
+    align-items: center;
+    margin-left: -184px;
+}
+
+.dot {
+    animation: blink 1.4s infinite both;
+}
+
+.dot:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.dot:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+@keyframes fadeIn {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+#loader {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 1000;
+}

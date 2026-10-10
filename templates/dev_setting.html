@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Clothing Inspection Setting</title>
+     <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/dev_setting.css') }}">
+<style>
+    
+    .button {
+        padding: 10px 20px;
+        background-color: #ff4d4d;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+ 
+    
+</style>
+</head>
+<body class="style-0">
+
+    <nav b-417jhgki91="" class="style-1">
+        <div b-417jhgki91="" class="style-2">
+            <button b-417jhgki91="" class="style-3"><i b-417jhgki91="" class="style-4"></i></button>
+        </div> 
+        <a b-417jhgki91="" href="/home/haval" class="style-5">
+            <div b-417jhgki91="" class="style-6">
+                <img src="{{ url_for('static', filename='images/technology.png') }}" alt="AI Clothing Technology" class="style-7" />
+            </div>
+        </a>
+        <div b-417jhgki91="" class="style-8">
+            <a b-417jhgki91="" class="style-9" role="button" href="#">
+                <img src="{{ url_for('static', filename='images/NotifictionIcon.png') }}" class="style-10" /> 
+                <span b-417jhgki91="" class="style-11">0</span>
+            </a>
+            <div b-417jhgki91="" class="style-12">
+                <div b-417jhgki91="" class="style-13"></div>
+            </div>
+        </div>
+        <button b-417jhgki91="" class="style-14" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span b-417jhgki91="" class="style-15">U</span>
+        </button>
+        <div b-417jhgki91="" class="style-16">
+            <ul b-417jhgki91="" class="style-17">
+                <li b-417jhgki91="" class="style-18">
+                    <a b-417jhgki91="" class="style-19" onclick="ReadAlert()" role="button" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
+                        <img src="{{ url_for('static', filename='images/NotifictionIcon.png') }}" class="style-20" />
+                        <span b-417jhgki91="" class="style-21">0</span>
+                    </a>
+                    <div b-417jhgki91="" class="style-22" aria-labelledby="notifyDropdownBtn"></div>
+                </li>
+            </ul>
+            <ul b-417jhgki91="" class="style-23">
+                <li b-417jhgki91="" class="style-24">
+                    <a b-417jhgki91="" class="style-25" href="#">Hello,{{username}} </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div b-417jhgki91="" class="style-26">
+        <aside b-417jhgki91="" class="style-27">
+            <div b-417jhgki91="" class="style-28">
+                <div b-417jhgki91="" class="style-29">
+                    <img src="{{ url_for('static', filename='images/technology.png') }}" alt="AI Clothing Technology" class="style-30" />
+                </div>
+                <div b-417jhgki91="" class="style-31">
+                    <button b-417jhgki91="" class="style-32"><i b-417jhgki91="" class="style-33"></i></button>
+                </div>
+                <div b-417jhgki91="" class="style-34">
+                    <ul b-417jhgki91="" class="style-35">
+                        <li b-417jhgki91="" class="style-36">
+                            <a b-417jhgki91="" href="/history" class="style-37">
+                                <span b-417jhgki91="" class="style-38">
+                                    <svg b-417jhgki91="" width="20" height="20" class="style-39" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path b-417jhgki91="" d="M3.5 8.60486L11.25 11.7729V21.1764L3.5 18.0084V8.60486Z" fill="black" class="style-40"></path>
+                                        <path b-417jhgki91="" d="M19.26 7.47813L12 10.4551L4.73999 7.47813L12 4.51123L19.26 7.47813Z" fill="black" class="style-41"></path>
+                                        <path b-417jhgki91="" d="M20.5 8.60486V18.0084L12.75 21.1764V11.7729L20.5 8.60486Z" fill="black" class="style-42"></path>
+                                    </svg>
+                                </span>
+                                <span b-417jhgki91="" class="style-43">Gallery</span>
+                            </a>
+                        </li>
+                        <li b-417jhgki91="" class="style-44">
+                            <a b-417jhgki91="" href="/" class="style-45">
+                                <span b-417jhgki91="" class="style-46">
+                                    <svg b-417jhgki91="" width="20" height="20" class="style-47" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path b-417jhgki91="" d="M8.68062 3.83716H5.32063C3.98063 3.83716 2.89062 4.93339 2.89062 6.28106V9.66028C2.89062 11.008 3.98063 12.1042 5.32063 12.1042H8.68062C10.0206 12.1042 11.1106 11.008 11.1106 9.66028V6.28106C11.1106 4.93339 10.0206 3.83716 8.68062 3.83716Z" fill="black" class="style-48"></path>
+                                        <path b-417jhgki91="" d="M18.6806 3.83716H15.3206C13.9806 3.83716 12.8906 4.93339 12.8906 6.28106V9.66028C12.8906 11.008 13.9806 12.1042 15.3206 12.1042H18.6806C20.0206 12.1042 21.1106 11.008 21.1106 9.66028V6.28106C21.1106 4.93339 20.0206 3.83716 18.6806 3.83716Z" fill="black" class="style-49"></path>
+                                        <path b-417jhgki91="" d="M8.68062 13.8945H5.32063C3.98063 13.8945 2.89062 14.9908 2.89062 16.3384V19.7177C2.89062 21.0653 3.98063 22.1616 5.32063 22.1616H8.68062C10.0206 22.1616 11.1106 21.0653 11.1106 19.7177V16.3384C11.1106 14.9908 10.0206 13.8945 8.68062 13.8945Z" fill="black" class="style-50"></path>
+                                        <path b-417jhgki91="" d="M18.6806 13.8945H15.3206C13.9806 13.8945 12.8906 14.9908 12.8906 16.3384V19.7177C12.8906 21.0653 13.9806 22.1616 15.3206 22.1616H18.6806C20.0206 22.1616 21.1106 21.0653 21.1106 19.7177V16.3384C21.1106 14.9908 20.0206 13.8945 18.6806 13.8945Z" fill="black" class="style-51"></path>
+                                    </svg>
+                                </span>
+                                <span b-417jhgki91="" class="style-52">Inspection</span>
+                            </a>
+                        </li>
+                        <li b-417jhgki91="" class="style-44">
+                            <a b-417jhgki91="" href="/about" class="style-45">
+                                <span b-417jhgki91="" class="style-46">
+                                    <svg b-417jhgki91="" width="20" height="20" class="style-47" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path b-417jhgki91="" d="M8.68062 3.83716H5.32063C3.98063 3.83716 2.89062 4.93339 2.89062 6.28106V9.66028C2.89062 11.008 3.98063 12.1042 5.32063 12.1042H8.68062C10.0206 12.1042 11.1106 11.008 11.1106 9.66028V6.28106C11.1106 4.93339 10.0206 3.83716 8.68062 3.83716Z" fill="black" class="style-48"></path>
+                                        <path b-417jhgki91="" d="M18.6806 3.83716H15.3206C13.9806 3.83716 12.8906 4.93339 12.8906 6.28106V9.66028C12.8906 11.008 13.9806 12.1042 15.3206 12.1042H18.6806C20.0206 12.1042 21.1106 11.008 21.1106 9.66028V6.28106C21.1106 4.93339 20.0206 3.83716 18.6806 3.83716Z" fill="black" class="style-49"></path>
+                                        <path b-417jhgki91="" d="M8.68062 13.8945H5.32063C3.98063 13.8945 2.89062 14.9908 2.89062 16.3384V19.7177C2.89062 21.0653 3.98063 22.1616 5.32063 22.1616H8.68062C10.0206 22.1616 11.1106 21.0653 11.1106 19.7177V16.3384C11.1106 14.9908 10.0206 13.8945 8.68062 13.8945Z" fill="black" class="style-50"></path>
+                                        <path b-417jhgki91="" d="M18.6806 13.8945H15.3206C13.9806 13.8945 12.8906 14.9908 12.8906 16.3384V19.7177C12.8906 21.0653 13.9806 22.1616 15.3206 22.1616H18.6806C20.0206 22.1616 21.1106 21.0653 21.1106 19.7177V16.3384C21.1106 14.9908 20.0206 13.8945 18.6806 13.8945Z" fill="black" class="style-51"></path>
+                                    </svg>
+                                </span>
+                                <span b-417jhgki91="" class="style-52">About</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="navigation-analytics-2">
+                        <a href="/logout">
+                            <img class="subtract" src="{{ url_for('static', filename='img/vectors/subtract_5_x2.svg') }}" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </aside> 
+        <div class="parent-container">
+            <h1>AI Clothing Inspection Config Setting</h1>
+            <div class="container">
+                <div class="setting">
+                    <label for="care_workbook_path">care_workbook_path:</label>
+                
+                    <input type="file" id="care_workbook_path" accept=".xlsx" class="button">
+                    <button onclick="uploadFile('care_workbook_path')">Upload</button>
+                   
+                </div>
+                <div class="setting">
+                    <label for="fiber_workbook_ppta_path">fiber_workbook_ppta_path:</label>
+                    <input type="file" id="fiber_workbook_ppta_path" accept=".xlsx" class="button">
+                    <button onclick="uploadFile('fiber_workbook_ppta_path')">Upload</button>
+                  
+                </div>
+                <div class="setting">
+                    <label for="fiber_workbook_woppta_path">fiber_workbook_woppta_path:</label>
+                    <input type="file" id="fiber_workbook_woppta_path" accept=".xlsx" class="button">
+                    <button onclick="uploadFile('fiber_workbook_woppta_path')">Upload</button>
+                    
+                </div>
+                <div class="setting">
+                    <label for="part_workbook_path">part_workbook_path:</label>
+                    <input type="file" id="part_workbook_path" accept=".xlsx" class="button">
+                    <button onclick="uploadFile('part_workbook_path')">Upload</button>
+                    
+                </div>
+                <div class="setting">
+                    <label for="part_workbook_path_ext">part_workbook_path_ext:</label>
+                    <input type="file" id="part_workbook_path_ext" accept=".xlsx" class="button">
+                    <button onclick="uploadFile('part_workbook_path_ext')">Upload</button>
+                   
+                </div>
+                <div class="setting">
+                    <label for="symbols_workbook_path">symbols_workbook_path:</label>
+                    <input type="file" id="symbols_workbook_path" accept=".xlsx" class="button">
+                    <button onclick="uploadFile('symbols_workbook_path')">Upload</button>
+                   
+                </div>
+                <div class="setting">
+                    <label for="symbols_db">symbols_db:</label>
+                    <input type="file" id="symbols_db" accept=".xlsx" class="button">
+                    <button onclick="uploadFile('symbols_db')">Upload</button>
+                  
+                </div>
+            </div>
+            <div class="container">
+                <div class="setting">
+                    <label for="part_range_from">Part Range Table Range</label>
+                    <input type="text" id="part_range_from" placeholder="From">
+                    <input type="text" id="part_range_to" placeholder="To">
+                    <button onclick="addRange('part_range')">Add</button>
+                    <button onclick="clearContainer('part_range')">Clear</button>
+                </div>
+                <div class="setting">
+                    <div id="part_range_list" class="box"></div>
+                </div>
+            </div>
+            
+            <div class="container">
+                <div class="setting">
+                    <label for="part_ext_range_from">Part Ext Range Table Range</label>
+                    <input type="text" id="part_ext_range_from" placeholder="From">
+                    <input type="text" id="part_ext_range_to" placeholder="To">
+                    <button onclick="addRange('part_ext_range')">Add</button>
+                    <button onclick="clearContainer('part_ext_range')">Clear</button>
+                </div>
+                <div class="setting">
+                    <div id="part_ext_range_list" class="box"></div>
+                </div>
+            </div>
+            
+            <div class="container">
+                <div class="setting">
+                    <label for="fiber_range_woppta_from">Fiber Range Woppta Table Range</label>
+                    <input type="text" id="fiber_range_woppta_from" placeholder="From">
+                    <input type="text" id="fiber_range_woppta_to" placeholder="To">
+                    <button onclick="addRange('fiber_range_woppta')">Add</button>
+                    <button onclick="clearContainer('fiber_range_woppta')">Clear</button>
+                </div>
+                <div class="setting">
+                    <div id="fiber_range_woppta_list" class="box"></div>
+                </div>
+            </div>
+            
+            <div class="container">
+                <div class="setting">
+                    <label for="fiber_range_ppta_from">Fiber Range Ppta Table Range</label>
+                    <input type="text" id="fiber_range_ppta_from" placeholder="From">
+                    <input type="text" id="fiber_range_ppta_to" placeholder="To">
+                    <button onclick="addRange('fiber_range_ppta')">Add</button>
+                    <button onclick="clearContainer('fiber_range_ppta')">Clear</button>
+                </div>
+                <div class="setting">
+                    <div id="fiber_range_ppta_list" class="box"></div>
+                </div>
+            </div>
+            
+            <div class="container">
+                <div class="setting">
+                    <label for="care_range_from">Care Range Table Range</label>
+                    <input type="text" id="care_range_from" placeholder="From">
+                    <input type="text" id="care_range_to" placeholder="To">
+                    <button onclick="addRange('care_range')">Add</button>
+                    <button onclick="clearContainer('care_range')">Clear</button>
+                </div>
+                <div class="setting">
+                    <div id="care_range_list" class="box"></div>
+                </div>
+            </div>
+            
+            <div class="container">
+                <div class="setting">
+                    <label for="symbol_range_from">Symbol Range Table Range</label>
+                    <input type="text" id="symbol_range_from" placeholder="From">
+                    <input type="text" id="symbol_range_to" placeholder="To">
+                    <button onclick="addRange('symbol_range')">Add</button>
+                    <button onclick="clearContainer('symbol_range')">Clear</button>
+                </div>
+                <div class="setting">
+                    <div id="symbol_range_list" class="box"></div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="setting">
+                    <label for="json_file">Export JSON</label>
+                    <input type="file" id="json_file" accept=".json" class="button">
+                    <button id="importSettings">Export Settings</button>
+                </div>
+            </div>
+            
+            <div class="container">
+                <div class="setting">
+                    <label for="json_file">save JSON</label>
+                    <button onclick="saveSettings()">Save Settings</button>
+                </div>
+            </div>
+
+            <div class="setting">
+            <div id="popup" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closePopup()">&times;</span>
+                    <p id="popupMessage"></p>
+                    <button onclick="reloadPage()">OK</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <script>
+            function addRange(setting) {
+                const fromInput = document.getElementById(setting + '_from');
+                const toInput = document.getElementById(setting + '_to');
+                const fromValue = fromInput.value.trim();
+                const toValue = toInput.value.trim() || fromValue;
+    
+                if (fromValue === '') {
+                    alert('Please enter a valid "From" value.');
+                    return;
+                }
+    
+                const list = document.getElementById(setting + '_list');
+                const existingValues = new Set(Array.from(list.children).map(item => item.dataset.value));
+    
+                if (existingValues.has(fromValue) && existingValues.has(toValue)) {
+                    alert('These values already exist.');
+                    return;
+                }
+    
+                const boxFrom = document.createElement('div');
+                boxFrom.className = 'value-box';
+                boxFrom.dataset.value = fromValue;
+                boxFrom.innerHTML = `${fromValue} <span class="remove" onclick="removeValue(this)">x</span>`;
+                list.appendChild(boxFrom);
+    
+                if (fromValue !== toValue) {
+                    const boxTo = document.createElement('div');
+                    boxTo.className = 'value-box';
+                    boxTo.dataset.value = toValue;
+                    boxTo.innerHTML = `${toValue} <span class="remove" onclick="removeValue(this)">x</span>`;
+                    list.appendChild(boxTo);
+                }
+    
+                fromInput.value = '';
+                toInput.value = '';
+            }
+    
+            function removeValue(element) {
+                element.parentElement.remove();
+            }
+    
+            function clearContainer(setting) {
+                const list = document.getElementById(setting + '_list');
+                list.innerHTML = '';
+            }
+    
+            function getRangeValues(listId) {
+                const list = document.getElementById(listId).children;
+                return Array.from(list).map(item => item.dataset.value);
+            }
+    
+            function saveSettings() {
+                const settings = {
+                    part_range: getRangeValues('part_range_list'),
+                    part_ext_range: getRangeValues('part_ext_range_list'),
+                    fiber_range_woppta: getRangeValues('fiber_range_woppta_list'),
+                    fiber_range_ppta: getRangeValues('fiber_range_ppta_list'),
+                    care_range: getRangeValues('care_range_list'),
+                    symbol_range: getRangeValues('symbol_range_list')
+                };
+    
+                fetch('http://localhost:10000/save_settings', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(settings)
+                })
+                .then(response => response.json())
+                .then(data => {
+                    alert(data.message);
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+            }
+    
+            function loadDefaultSettings(settings) {
+                for (const key in settings) {
+                    const value = settings[key];
+                    const list = document.getElementById(key + '_list');
+                    if (!list) {
+                        console.error(`Element with ID ${key + '_list'} not found`);
+                        continue;
+                    }
+                    if (Array.isArray(value)) {
+                        const existingValues = new Set(Array.from(list.children).map(item => item.dataset.value));
+                        value.forEach(item => {
+                            if (!existingValues.has(item)) {
+                                const box = document.createElement('div');
+                                box.className = 'value-box';
+                                box.dataset.value = item;
+                                box.innerHTML = `${item} <span class="remove" onclick="removeValue(this)">x</span>`;
+                                list.appendChild(box);
+                            }
+                        });
+                    }
+                }
+            }
+    
+            document.addEventListener('DOMContentLoaded', () => {
+                fetch('http://localhost:10000/get_default_settings')
+                .then(response => response.json())
+                .then(data => {
+                    console.log('Default settings:', data);  // Debug statement
+                    loadDefaultSettings(data);
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+    
+                const rangeInputs = document.querySelectorAll('input[type="text"][id$="_from"], input[type="text"][id$="_to"]');
+                rangeInputs.forEach(input => {
+                    input.addEventListener('keypress', function (e) {
+                        if (e.key === 'Enter') {
+                            e.preventDefault();
+                            const setting = this.id.replace('_from', '').replace('_to', '');
+                            addRange(setting);
+                        }
+                    });
+                });
+            });
+        </script>
+      
+        <script>
+            document.getElementById('importSettings').addEventListener('click', importSettings);
+            function uploadFile(inputId) {
+                const input = document.getElementById(inputId);
+                const file = input.files[0];
+                if (!file) {
+                    alert('Please select a file to upload.');
+                    return;
+                }
+            
+                const formData = new FormData();
+                formData.append('file', file);
+                formData.append('inputId', inputId); 
+                fetch('http://localhost:10000/uploadFile', {
+                    method: 'POST',
+                    body: formData
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        document.getElementById(`${inputId}_current`).textContent = `Current path: ${data.newPath}`;
+                        showPopup('File uploaded successfully.', 'success');
+                    } else {
+                        showPopup('Failed to upload file.', 'success');
+                    }
+                })
+                .catch(error => {
+                    console.error('successfully uploading file:', error);
+                    showPopup('successfully to upload file.', 'success');
+                });
+            }
+
+
+                function importSettings() {
+                    const input = document.getElementById('json_file');
+                    const file = input.files[0];
+                    if (!file) {
+                        alert('Please select a JSON file.');
+                        return;
+                    }
+
+                    const formData = new FormData();
+                    formData.append('file', file);
+
+                    fetch('http://localhost:10000/upload_config_file', {
+                        method: 'POST',
+                        body: formData
+                    })
+                    .then(response => response.json())
+                    .then(data => {
+                        showPopup(data.message, 'success');
+                        fetchDevSettings(); 
+                    })
+                    .catch(error => {
+                        console.error('successfully importing settings:', error);
+                        showPopup('successfully to import settings.', 'error');
+                    });
+                }
+            
+
+                function showPopup(message, type) {
+                    const popup = document.getElementById('popup');
+                    const popupMessage = document.getElementById('popupMessage');
+                    popupMessage.textContent = message;
+                    popup.className = `modal ${type}`; // Apply type-specific class
+                    popup.style.display = 'block'; // Show the popup
+                }
+                
+                function closePopup() {
+                    document.getElementById('popup').style.display = 'none'; // Hide the popup
+                }
+                
+                function reloadPage() {
+                    location.reload(); 
+                }
+                
+        </script>
+
+    </body>
+    </html>

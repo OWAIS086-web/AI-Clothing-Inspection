@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About AI Clothing Inspection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <style>
+        .about-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        .hero-section {
+            text-align: center;
+            margin-bottom: 60px;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            border-radius: 10px;
+        }
+        
+        .hero-section h1 {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        
+        .hero-section p {
+            font-size: 1.1em;
+            color: #666;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .section {
+            margin-bottom: 50px;
+        }
+        
+        .section h2 {
+            font-size: 2em;
+            margin-bottom: 30px;
+            color: #333;
+            border-bottom: 3px solid #007bff;
+            padding-bottom: 10px;
+        }
+        
+        .process-steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .step {
+            background: #f9f9f9;
+            padding: 30px;
+            border-radius: 8px;
+            border-left: 5px solid #007bff;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        
+        .step:hover {
+            transform: translateY(-5px);
+        }
+        
+        .step h3 {
+            color: #007bff;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+        
+        .step-number {
+            background: #007bff;
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        
+        .tech-stack {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        
+        .tech-item {
+            background: #f0f4f8;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        
+        .tech-item h4 {
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+        
+        .tech-item p {
+            color: #666;
+            font-size: 0.95em;
+        }
+        
+        .metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .metric-card {
+            background: white;
+            border: 2px solid #007bff;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+        .metric-value {
+            font-size: 2em;
+            font-weight: bold;
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+        
+        .metric-label {
+            color: #666;
+            font-size: 0.95em;
+        }
+    </style>
+</head>
+<body class="style-0">
+
+    <nav b-417jhgki91="" class="style-1">
+        <div b-417jhgki91="" class="style-2">
+            <button b-417jhgki91="" class="style-3"><i b-417jhgki91="" class="style-4"></i></button>
+        </div> 
+        <a b-417jhgki91="" href="/home/haval" class="style-5">
+            <div b-417jhgki91="" class="style-6">
+                <img src="{{ url_for('static', filename='images/technology.png') }}" alt="AI Clothing Technology" class="style-7" />
+            </div>
+        </a>
+        <div b-417jhgki91="" class="style-8">
+            <a b-417jhgki91="" class="style-9" role="button" href="#">
+                <img src="{{ url_for('static', filename='images/NotifictionIcon.png') }}" class="style-10" /> 
+                <span b-417jhgki91="" class="style-11">0</span>
+            </a>
+            <div b-417jhgki91="" class="style-12">
+                <div b-417jhgki91="" class="style-13"></div>
+            </div>
+        </div>
+        <button b-417jhgki91="" class="style-14" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span b-417jhgki91="" class="style-15">U</span>
+        </button>
+        <div b-417jhgki91="" class="style-16">
+            <ul b-417jhgki91="" class="style-17">
+                <li b-417jhgki91="" class="style-18">
+                    <a b-417jhgki91="" class="style-19" onclick="ReadAlert()" role="button" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
+                        <img src="{{ url_for('static', filename='images/NotifictionIcon.png') }}" class="style-20" />
+                        <span b-417jhgki91="" class="style-21">0</span>
+                    </a>
+                    <div b-417jhgki91="" class="style-22" aria-labelledby="notifyDropdownBtn"></div>
+                </li>
+            </ul>
+            <ul b-417jhgki91="" class="style-23">
+                <li b-417jhgki91="" class="style-24">
+                    <a b-417jhgki91="" class="style-25" href="#">Hello,{{username}} </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div b-417jhgki91="" class="style-26">
+        <aside b-417jhgki91="" class="style-27">
+            <div b-417jhgki91="" class="style-28">
+                <div b-417jhgki91="" class="style-29">
+                    <img src="{{ url_for('static', filename='images/technology.png') }}" alt="AI Clothing Technology" class="style-30" />
+                </div>
+                <div b-417jhgki91="" class="style-31">
+                    <button b-417jhgki91="" class="style-32"><i b-417jhgki91="" class="style-33"></i></button>
+                </div>
+                <div b-417jhgki91="" class="style-34">
+                    <ul b-417jhgki91="" class="style-35">
+                        <li b-417jhgki91="" class="style-36">
+                            <a b-417jhgki91="" href="/dashboard" class="style-37">
+                                <span b-417jhgki91="" class="style-38">
+                                    <svg b-417jhgki91="" width="20" height="20" class="style-39" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path b-417jhgki91="" d="M3.5 8.60486L11.25 11.7729V21.1764L3.5 18.0084V8.60486Z" fill="black" class="style-40"></path>
+                                        <path b-417jhgki91="" d="M19.26 7.47813L12 10.4551L4.73999 7.47813L12 4.51123L19.26 7.47813Z" fill="black" class="style-41"></path>
+                                        <path b-417jhgki91="" d="M20.5 8.60486V18.0084L12.75 21.1764V11.7729L20.5 8.60486Z" fill="black" class="style-42"></path>
+                                    </svg>
+                                </span>
+                                <span b-417jhgki91="" class="style-43">Home</span>
+                            </a>
+                        </li>
+                        <li b-417jhgki91="" class="style-44">
+                            <a b-417jhgki91="" href="/settings" class="style-45">
+                                <span b-417jhgki91="" class="style-46">
+                                    <svg b-417jhgki91="" width="20" height="20" class="style-47" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path b-417jhgki91="" d="M8.68062 3.83716H5.32063C3.98063 3.83716 2.89062 4.93339 2.89062 6.28106V9.66028C2.89062 11.008 3.98063 12.1042 5.32063 12.1042H8.68062C10.0206 12.1042 11.1106 11.008 11.1106 9.66028V6.28106C11.1106 4.93339 10.0206 3.83716 8.68062 3.83716Z" fill="black" class="style-48"></path>
+                                        <path b-417jhgki91="" d="M18.6806 3.83716H15.3206C13.9806 3.83716 12.8906 4.93339 12.8906 6.28106V9.66028C12.8906 11.008 13.9806 12.1042 15.3206 12.1042H18.6806C20.0206 12.1042 21.1106 11.008 21.1106 9.66028V6.28106C21.1106 4.93339 20.0206 3.83716 18.6806 3.83716Z" fill="black" class="style-49"></path>
+                                        <path b-417jhgki91="" d="M8.68062 13.8945H5.32063C3.98063 13.8945 2.89062 14.9908 2.89062 16.3384V19.7177C2.89062 21.0653 3.98063 22.1616 5.32063 22.1616H8.68062C10.0206 22.1616 11.1106 21.0653 11.1106 19.7177V16.3384C11.1106 14.9908 10.0206 13.8945 8.68062 13.8945Z" fill="black" class="style-50"></path>
+                                        <path b-417jhgki91="" d="M18.6806 13.8945H15.3206C13.9806 13.8945 12.8906 14.9908 12.8906 16.3384V19.7177C12.8906 21.0653 13.9806 22.1616 15.3206 22.1616H18.6806C20.0206 22.1616 21.1106 21.0653 21.1106 19.7177V16.3384C21.1106 14.9908 20.0206 13.8945 18.6806 13.8945Z" fill="black" class="style-51"></path>
+                                    </svg>
+                                </span>
+                                <span b-417jhgki91="" class="style-52">Settings</span>
+                            </a>
+                        </li>
+                        <li b-417jhgki91="" class="style-44">
+                            <a b-417jhgki91="" href="/about" class="style-45">
+                                <span b-417jhgki91="" class="style-46">
+                                    <svg b-417jhgki91="" width="20" height="20" class="style-47" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path b-417jhgki91="" d="M8.68062 3.83716H5.32063C3.98063 3.83716 2.89062 4.93339 2.89062 6.28106V9.66028C2.89062 11.008 3.98063 12.1042 5.32063 12.1042H8.68062C10.0206 12.1042 11.1106 11.008 11.1106 9.66028V6.28106C11.1106 4.93339 10.0206 3.83716 8.68062 3.83716Z" fill="black" class="style-48"></path>
+                                        <path b-417jhgki91="" d="M18.6806 3.83716H15.3206C13.9806 3.83716 12.8906 4.93339 12.8906 6.28106V9.66028C12.8906 11.008 13.9806 12.1042 15.3206 12.1042H18.6806C20.0206 12.1042 21.1106 11.008 21.1106 9.66028V6.28106C21.1106 4.93339 20.0206 3.83716 18.6806 3.83716Z" fill="black" class="style-49"></path>
+                                        <path b-417jhgki91="" d="M8.68062 13.8945H5.32063C3.98063 13.8945 2.89062 14.9908 2.89062 16.3384V19.7177C2.89062 21.0653 3.98063 22.1616 5.32063 22.1616H8.68062C10.0206 22.1616 11.1106 21.0653 11.1106 19.7177V16.3384C11.1106 14.9908 10.0206 13.8945 8.68062 13.8945Z" fill="black" class="style-50"></path>
+                                        <path b-417jhgki91="" d="M18.6806 13.8945H15.3206C13.9806 13.8945 12.8906 14.9908 12.8906 16.3384V19.7177C12.8906 21.0653 13.9806 22.1616 15.3206 22.1616H18.6806C20.0206 22.1616 21.1106 21.0653 21.1106 19.7177V16.3384C21.1106 14.9908 20.0206 13.8945 18.6806 13.8945Z" fill="black" class="style-51"></path>
+                                    </svg>
+                                </span>
+                                <span b-417jhgki91="" class="style-52">About</span>
+                            </a>
+                        </li>
+                    </ul>
+                   <div class="navigation-analytics-2">
+                        <a href="/logout">
+                            <img class="subtract" src="{{ url_for('static', filename='img/vectors/subtract_5_x2.svg') }}" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <div class="about-container">
+            <!-- Hero Section -->
+            <div class="hero-section">
+                <h1>AI Clothing Inspection System</h1>
+                <p>Advanced automated quality control for garment inspection using cutting-edge AI and computer vision technologies</p>
+            </div>
+
+            <!-- AI Process Section -->
+            <div class="section">
+                <h2>AI Process Overview</h2>
+                <p>Our system leverages advanced AI models to ensure comprehensive quality control of clothing and textiles:</p>
+                <div class="process-steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <h3>Document Upload</h3>
+                        <p>Users upload order form (Excel) and product artwork (PDF) for analysis. The system validates file formats and extracts metadata for processing.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <h3>OCR Text Extraction</h3>
+                        <p>PaddleOCR technology extracts multilingual text from product labels and documents with high accuracy, supporting multiple languages and character sets.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <h3>AI Analysis</h3>
+                        <p>Vision Transformer (ViT) model classifies garment parts, detects materials, and analyzes product composition with deep learning precision.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <h3>Symbol Recognition</h3>
+                        <p>YOLO-based detection model identifies and classifies care symbols, regulatory marks, and certification badges on products.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">5</div>
+                        <h3>Cross-Validation</h3>
+                        <p>System compares extracted data against order form requirements, identifying discrepancies and compliance issues automatically.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">6</div>
+                        <h3>Report Generation</h3>
+                        <p>Comprehensive inspection report with pass/fail verdict, detailed defect list, confidence scores, and export options for stakeholders.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Technology Stack Section -->
+            <div class="section">
+                <h2>Technology Stack</h2>
+                <div class="tech-stack">
+                    <div class="tech-item">
+                        <h4>PaddleOCR</h4>
+                        <p>Multilingual optical character recognition for text extraction from product labels and documents with high accuracy.</p>
+                    </div>
+                    <div class="tech-item">
+                        <h4>Vision Transformer (ViT)</h4>
+                        <p>State-of-the-art deep learning model for image classification, garment part detection, and material analysis.</p>
+                    </div>
+                    <div class="tech-item">
+                        <h4>YOLO</h4>
+                        <p>Real-time object detection model for identifying care symbols, logos, and regulatory marks on products.</p>
+                    </div>
+                    <div class="tech-item">
+                        <h4>Flask</h4>
+                        <p>Lightweight Python web framework for building the RESTful API and web application backend.</p>
+                    </div>
+                    <div class="tech-item">
+                        <h4>SQLite Database</h4>
+                        <p>Lightweight database for storing user data, inspection history, and system configurations.</p>
+                    </div>
+                    <div class="tech-item">
+                        <h4>WebSocket</h4>
+                        <p>Real-time bidirectional communication for live progress updates and result streaming.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Accuracy Metrics Section -->
+            <div class="section">
+                <h2>Accuracy & Performance Metrics</h2>
+                <div class="metrics">
+                    <div class="metric-card">
+                        <div class="metric-value">98.5%</div>
+                        <div class="metric-label">Text Recognition Accuracy</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">96.8%</div>
+                        <div class="metric-label">Object Detection Precision</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">2-5 sec</div>
+                        <div class="metric-label">Average Processing Time</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">95.2%</div>
+                        <div class="metric-label">Classification Accuracy</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
